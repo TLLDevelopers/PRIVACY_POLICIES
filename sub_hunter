@@ -1,0 +1,83 @@
+Privacy Policy for SubHunter
+Last updated: January 05, 2026
+
+SubHunter ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by SubHunter.
+
+This Privacy Policy applies to our application named SubHunter, and its associated subdomains (collectively, our "Service"). By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.
+
+1. Information We Collect
+To provide you with the "painkiller" features of SubHunter—specifically tracking your subscriptions, calculating financial waste, and sending aggressive alerts—we may collect and process the following types of information:
+
+A. Personal Data You Provide
+When you use the app, you manually input specific data regarding your subscriptions. This includes:
+
+Subscription Names: (e.g., Netflix, Spotify).
+
+Financial Details: Costs, billing cycles, and renewal dates.
+
+Preferences: Your settings regarding alert frequency and notification timing.
+
+Note on Financial Security: The financial data you input (costs and dates) is stored locally on your device. We do not transmit your personal financial inputs to external servers for our own analysis, nor do we sell this data.
+
+B. Automatically Collected Information
+When you use SubHunter, we may automatically collect certain information about your device, including:
+
+Device Information: Device model, operating system (Android version), unique device identifiers, and mobile network information.
+
+Usage Data: Details of your use of our application, such as features used and the time spent on the app. This helps us improve the user experience.
+
+C. Permissions
+To function correctly, SubHunter requires specific permissions:
+
+Notifications: We request permission to send you push notifications. This is essential for the "aggressive alerts" feature to remind you before a free trial ends or a subscription renews.
+
+2. Third-Party Services
+SubHunter is built using Flutter and may employ third-party companies and individuals due to the following reasons:
+
+To facilitate our Service;
+
+To provide the Service on our behalf;
+
+To perform Service-related services (e.g., Analytics, Crash Reporting); or
+
+To assist us in analyzing how our Service is used.
+
+We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+
+The app does use third-party services that may collect information used to identify you. Link to the privacy policy of third-party service providers used by the app:
+
+Google Play Services
+
+Google Analytics for Firebase
+
+Firebase Crashlytics
+
+3. How We Use Your Information
+We use the information we collect in various ways, including to:
+
+Provide, operate, and maintain our app.
+
+Improve, personalize, and expand our app.
+
+Understand and analyze how you use our app.
+
+Develop new products, services, features, and functionality.
+
+Send you Push Notifications: To alert you of upcoming billing dates and help you avoid unwanted charges.
+
+4. Security
+We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+
+5. Links to Other Sites
+This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+6. Children's Privacy
+These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do the necessary actions.
+
+7. Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+
+8. Contact Us
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:
+
+Email: tll.developers.apps@gmail.com
