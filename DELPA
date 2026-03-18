@@ -1,0 +1,285 @@
+# POLÍTICA DE PRIVACIDAD DE DELPA
+
+**Última actualización:** 18 de marzo de 2026
+
+## 1. INTRODUCCIÓN
+
+Bienvenido a DELPA ("nosotros", "nuestro" o "la aplicación"). Nos comprometemos a proteger tu privacidad y tus datos personales. Esta Política de Privacidad explica cómo recopilamos, usamos, compartimos y protegemos tu información cuando utilizas nuestra aplicación móvil de comunidad de pádel.
+
+Al utilizar DELPA, aceptas las prácticas descritas en esta Política de Privacidad. Si no estás de acuerdo con esta política, por favor no utilices nuestra aplicación.
+
+## 2. RESPONSABLE DEL TRATAMIENTO
+
+**Nombre de la empresa:** TLL Corp. 
+**Correo electrónico:** tll.developers.apps@gmail.com 
+**Sitio web:** https://tlldevelopers.com/
+
+## 3. INFORMACIÓN QUE RECOPILAMOS
+
+### 3.1 Información que nos proporcionas directamente
+
+- **Datos de registro y autenticación:**
+  - Dirección de correo electrónico
+  - Contraseña (encriptada)
+  - Nombre de usuario o nombre para mostrar
+  - Foto de perfil (opcional)
+  - Información de cuenta de Google (si eliges iniciar sesión con Google)
+
+- **Datos de perfil:**
+  - Nivel de habilidad en pádel (principiante, intermedio, avanzado, profesional, élite)
+  - Ciudad de residencia
+  - Estadísticas de partidos jugados y creados
+  - Valoraciones y reseñas de otros usuarios
+
+- **Datos de partidos:**
+  - Información de partidos que creas (título, descripción, fecha, hora, duración)
+  - Ubicación de los partidos (nombre del club, dirección, coordenadas geográficas)
+  - Nivel de habilidad requerido
+  - Tipo de partido (individuales, dobles, dobles mixtos)
+  - Precio por jugador (si aplica)
+  - Historial de partidos a los que te unes o que creas
+
+- **Comunicaciones:**
+  - Mensajes de chat con otros usuarios
+  - Reportes de incidentes o problemas
+  - Comunicaciones con nuestro equipo de soporte
+
+### 3.2 Información que recopilamos automáticamente
+
+- **Datos de ubicación:**
+  - Ubicación geográfica aproximada o precisa (con tu consentimiento) para mostrarte partidos cercanos y permitir que otros usuarios encuentren partidos en tu área
+  - Coordenadas GPS cuando creas o buscas partidos
+
+- **Datos de uso:**
+  - Información sobre cómo utilizas la aplicación
+  - Páginas visitadas y funciones utilizadas
+  - Fecha y hora de acceso
+  - Interacciones con otros usuarios
+
+- **Datos del dispositivo:**
+  - Tipo de dispositivo y modelo
+  - Sistema operativo y versión
+  - Identificadores únicos del dispositivo
+  - Configuración de idioma
+  - Dirección IP
+  - Información de red móvil
+
+- **Datos analíticos:**
+  - Información recopilada a través de Firebase Analytics para mejorar la aplicación
+  - Datos de rendimiento y errores a través de Firebase Crashlytics
+
+- **Notificaciones:**
+  - Tokens de notificaciones push para enviarte actualizaciones sobre partidos, mensajes y actividad relevante
+
+### 3.3 Información de terceros
+
+- **Google Sign-In:** Si eliges iniciar sesión con Google, recibiremos información básica de tu perfil de Google (nombre, correo electrónico, foto de perfil) según los permisos que otorgues.
+
+## 4. CÓMO UTILIZAMOS TU INFORMACIÓN
+
+Utilizamos la información recopilada para los siguientes propósitos:
+
+### 4.1 Prestación del servicio
+- Crear y gestionar tu cuenta de usuario
+- Permitirte crear, buscar y unirte a partidos de pádel
+- Facilitar la comunicación entre jugadores a través del chat
+- Mostrar tu perfil a otros usuarios
+- Calcular distancias y mostrar partidos cercanos a tu ubicación
+- Gestionar valoraciones y reseñas de usuarios
+
+### 4.2 Mejora y personalización
+- Personalizar tu experiencia en la aplicación
+- Mejorar nuestros servicios y desarrollar nuevas funcionalidades
+- Analizar patrones de uso para optimizar el rendimiento
+- Realizar análisis estadísticos y de tendencias
+
+### 4.3 Comunicación
+- Enviarte notificaciones push sobre:
+  - Nuevos mensajes de chat
+  - Actualizaciones de partidos a los que te has unido
+  - Confirmaciones de unión o salida de partidos
+  - Cambios en partidos que has creado
+  - Valoraciones recibidas
+- Responder a tus consultas y solicitudes de soporte
+- Enviarte información importante sobre cambios en el servicio
+
+### 4.4 Seguridad y cumplimiento
+- Detectar, prevenir y abordar fraudes, abusos y actividades ilegales
+- Proteger la seguridad de nuestros usuarios
+- Hacer cumplir nuestros Términos de Servicio
+- Cumplir con obligaciones legales y regulatorias
+
+### 4.5 Publicidad
+- Mostrar anuncios relevantes a través de Google AdMob
+- Los anuncios pueden incluir:
+  - Banners publicitarios en la parte inferior de la aplicación
+  - Anuncios nativos integrados en las listas de partidos
+
+## 5. BASE LEGAL PARA EL TRATAMIENTO (RGPD)
+
+Si te encuentras en el Espacio Económico Europeo (EEE), procesamos tus datos personales bajo las siguientes bases legales:
+
+- **Ejecución de un contrato:** Para proporcionar los servicios que has solicitado
+- **Consentimiento:** Para el uso de datos de ubicación precisa, notificaciones push y publicidad personalizada
+- **Interés legítimo:** Para mejorar nuestros servicios, garantizar la seguridad y prevenir fraudes
+- **Obligación legal:** Para cumplir con requisitos legales aplicables
+
+## 6. CÓMO COMPARTIMOS TU INFORMACIÓN
+
+### 6.1 Con otros usuarios
+- Tu perfil público (nombre, foto, nivel de habilidad, ciudad, estadísticas) es visible para otros usuarios autenticados
+- Los creadores de partidos pueden ver la información de perfil de los jugadores que se unen
+- Los participantes de un partido pueden ver los perfiles de otros participantes
+- Tus mensajes de chat son visibles para los destinatarios
+
+### 6.2 Con proveedores de servicios
+Compartimos información con terceros que nos ayudan a operar la aplicación:
+
+- **Firebase (Google):** Autenticación, base de datos, analytics, notificaciones push, crashlytics
+- **Google AdMob:** Para mostrar publicidad en la aplicación
+- **Google Maps/Geocoding:** Para servicios de ubicación y mapas
+- **Proveedores de infraestructura en la nube:** Para almacenamiento y procesamiento de datos
+
+### 6.3 Por razones legales
+Podemos divulgar tu información si:
+- Es requerido por ley, orden judicial o proceso legal
+- Es necesario para proteger nuestros derechos, propiedad o seguridad
+- Es necesario para detectar, prevenir o abordar fraudes o problemas de seguridad
+- Es necesario para proteger la seguridad de nuestros usuarios o del público
+
+### 6.4 Transferencias empresariales
+En caso de fusión, adquisición o venta de activos, tu información puede ser transferida a la nueva entidad.
+
+### 6.5 Con tu consentimiento
+Podemos compartir información con terceros cuando hayas dado tu consentimiento explícito.
+
+## 7. PUBLICIDAD Y SERVICIOS DE TERCEROS
+
+### 7.1 Google AdMob
+Utilizamos Google AdMob para mostrar anuncios en la aplicación. AdMob puede recopilar y utilizar:
+- Identificadores de dispositivo
+- Información de ubicación aproximada
+- Datos de uso de la aplicación
+- Información demográfica inferida
+
+Puedes obtener más información sobre cómo Google utiliza los datos en: https://policies.google.com/privacy
+
+### 7.2 Personalización de anuncios
+Puedes optar por no recibir anuncios personalizados:
+- **Android:** Configuración > Google > Anuncios > Desactivar personalización de anuncios
+- **iOS:** Configuración > Privacidad > Publicidad > Limitar seguimiento de anuncios
+
+## 8. RETENCIÓN DE DATOS
+
+Conservamos tu información personal durante el tiempo que sea necesario para:
+- Proporcionar nuestros servicios mientras tu cuenta esté activa
+- Cumplir con obligaciones legales, fiscales o de auditoría
+- Resolver disputas y hacer cumplir nuestros acuerdos
+
+**Plazos específicos:**
+- **Datos de cuenta:** Mientras tu cuenta esté activa y hasta 90 días después de su eliminación
+- **Mensajes de chat:** Mientras ambos usuarios mantengan sus cuentas activas
+- **Datos de partidos:** Indefinidamente para mantener el historial de la comunidad, pero desvinculados de tu identidad tras eliminar tu cuenta
+- **Datos analíticos:** Hasta 26 meses en forma agregada y anonimizada
+- **Registros de seguridad:** Hasta 12 meses
+
+## 9. TUS DERECHOS
+
+Dependiendo de tu ubicación, puedes tener los siguientes derechos:
+
+### 9.1 Derechos bajo el RGPD (usuarios del EEE)
+- **Acceso:** Solicitar una copia de tus datos personales
+- **Rectificación:** Corregir datos inexactos o incompletos
+- **Supresión:** Solicitar la eliminación de tus datos ("derecho al olvido")
+- **Limitación:** Restringir el procesamiento de tus datos
+- **Portabilidad:** Recibir tus datos en formato estructurado y legible
+- **Oposición:** Oponerte al procesamiento de tus datos
+- **Retirar consentimiento:** Retirar el consentimiento en cualquier momento
+- **Presentar reclamación:** Ante una autoridad de protección de datos
+
+### 9.2 Cómo ejercer tus derechos
+Para ejercer cualquiera de estos derechos, contáctanos en: [TU EMAIL DE CONTACTO]
+
+### 9.3 Controles dentro de la aplicación
+Puedes:
+- Editar tu información de perfil en cualquier momento
+- Eliminar tu cuenta desde la configuración de la aplicación
+- Desactivar notificaciones push desde la configuración del dispositivo
+- Gestionar permisos de ubicación desde la configuración del dispositivo
+
+## 10. SEGURIDAD DE LOS DATOS
+
+Implementamos medidas de seguridad técnicas y organizativas para proteger tu información:
+
+- **Encriptación:** Las contraseñas se almacenan encriptadas; las comunicaciones utilizan HTTPS/TLS
+- **Autenticación:** Utilizamos Firebase Authentication con protocolos de seguridad estándar de la industria
+- **Control de acceso:** Acceso limitado a datos personales solo para personal autorizado
+- **Reglas de seguridad de Firestore:** Controles de acceso a nivel de base de datos
+- **Monitoreo:** Supervisión continua de actividades sospechosas
+
+Sin embargo, ningún sistema es 100% seguro. No podemos garantizar la seguridad absoluta de tu información.
+
+## 11. PRIVACIDAD DE MENORES
+
+DELPA no está dirigida a menores de 16 años. No recopilamos intencionalmente información de menores de 16 años. Si descubrimos que hemos recopilado datos de un menor, eliminaremos esa información inmediatamente.
+
+Si eres padre/madre o tutor y crees que tu hijo nos ha proporcionado información personal, contáctanos en: [TU EMAIL DE CONTACTO]
+
+## 12. TRANSFERENCIAS INTERNACIONALES DE DATOS
+
+Tus datos pueden ser transferidos y procesados en servidores ubicados fuera de tu país de residencia, incluyendo Estados Unidos y otros países donde operan nuestros proveedores de servicios (especialmente Firebase/Google Cloud).
+
+Para usuarios del EEE, nos aseguramos de que estas transferencias cumplan con el RGPD mediante:
+- Cláusulas contractuales tipo aprobadas por la Comisión Europea
+- Certificaciones de Privacy Shield (cuando aplique)
+- Otras salvaguardas legales apropiadas
+
+## 13. COOKIES Y TECNOLOGÍAS SIMILARES
+
+Aunque DELPA es principalmente una aplicación móvil, utilizamos tecnologías similares a cookies:
+
+- **Identificadores de dispositivo:** Para reconocer tu dispositivo
+- **Almacenamiento local:** Para guardar preferencias y datos de sesión
+- **SDKs de terceros:** Firebase, AdMob y otros servicios pueden utilizar identificadores y tecnologías de seguimiento
+
+## 14. CAMBIOS A ESTA POLÍTICA DE PRIVACIDAD
+
+Podemos actualizar esta Política de Privacidad periódicamente. Te notificaremos sobre cambios significativos mediante:
+- Una notificación en la aplicación
+- Un correo electrónico a tu dirección registrada
+- Actualización de la fecha de "Última actualización" en la parte superior
+
+Tu uso continuado de DELPA después de los cambios constituye tu aceptación de la política actualizada.
+
+## 15. ENLACES A SITIOS DE TERCEROS
+
+La aplicación puede contener enlaces a sitios web o servicios de terceros. No somos responsables de las prácticas de privacidad de estos terceros. Te recomendamos leer sus políticas de privacidad.
+
+## 16. CONTACTO
+
+Si tienes preguntas, inquietudes o solicitudes relacionadas con esta Política de Privacidad o el tratamiento de tus datos personales, contáctanos:
+
+**Nombre de la empresa:** TLL Corp. 
+**Correo electrónico:** tll.developers.apps@gmail.com 
+**Sitio web:** https://tlldevelopers.com/
+
+**Para usuarios del EEE:**  
+Si no estás satisfecho con nuestra respuesta, tienes derecho a presentar una reclamación ante tu autoridad de protección de datos local.
+
+---
+
+## RESUMEN DE PUNTOS CLAVE
+
+Para tu comodidad, aquí hay un resumen de los puntos más importantes:
+
+✅ **Qué recopilamos:** Email, nombre, foto, nivel de pádel, ubicación, datos de partidos, mensajes de chat  
+✅ **Por qué:** Para conectarte con otros jugadores, mostrar partidos cercanos, facilitar comunicación  
+✅ **Con quién compartimos:** Otros usuarios (perfil público), Firebase/Google, proveedores de servicios  
+✅ **Tus derechos:** Acceder, corregir, eliminar tus datos; desactivar ubicación y notificaciones  
+✅ **Seguridad:** Encriptación, HTTPS, Firebase Authentication, reglas de seguridad  
+✅ **Publicidad:** Usamos Google AdMob; puedes desactivar anuncios personalizados  
+✅ **Contacto:** [TU EMAIL DE CONTACTO] para cualquier pregunta
+
+---
+
+**Gracias por confiar en DELPA para tu experiencia de pádel. ¡Nos vemos en la pista! 🎾**
