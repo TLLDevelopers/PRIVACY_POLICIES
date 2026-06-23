@@ -1,0 +1,154 @@
+# Privacy Policy — Salat
+
+**Last updated: 23 June 2026**
+
+This Privacy Policy explains how the **Salat** app ("Salat", "the app", "we", "us")
+handles information when you use it. Salat is an Islamic prayer-times app for
+Android.
+
+**Summary:** Salat has **no servers of its own** and does **not require an account**.
+We do not collect or store your personal data. Prayer-time and Qibla calculations
+happen **on your device**. The only data leaving your device is anonymous usage
+analytics and advertising data handled by Google (Firebase Analytics and Google
+AdMob), as described below.
+
+---
+
+## 1. Information we process
+
+### a) Location
+Salat uses your device location (or a city you enter manually) **only on your
+device** to calculate prayer times and the Qibla (direction to the Kaaba). To
+display your city name, your device's operating system may convert your
+coordinates into a place name using its built-in geocoding service.
+
+We do **not** store your location and we do **not** send it to any server operated
+by us (we operate none). Your location is cached locally on your device so the app
+works offline.
+
+You can deny or revoke the location permission at any time in your device settings
+and instead select a city manually.
+
+### b) Usage and analytics (Google Firebase Analytics)
+To understand how the app is used and improve reliability and retention, Salat uses
+**Google Firebase Analytics**, which collects **anonymous** usage and diagnostic
+information such as app opens, session data, device model, operating-system
+version, language/region, and in-app events (for example: onboarding completed,
+notification permission granted, calculation method changed). This data does not
+identify you personally and we do not combine it with any personal information.
+
+### c) Advertising (Google AdMob)
+Salat shows ads through **Google AdMob** to keep the app free. To serve ads, Google
+may use device and advertising identifiers (such as the Advertising ID) and related
+information. Where required (for example in the European Economic Area and the UK),
+the app asks for your consent through Google's consent form before serving
+personalized ads; you may choose non-personalized ads.
+
+### d) Notifications and on-device settings
+Your preferences (calculation method, madhab, manual adjustments, chosen language,
+adhan modes, Hijri offset) are stored **locally on your device** only. The adhan
+reminders are local notifications scheduled on your device; they do not transmit
+any data.
+
+---
+
+## 2. Permissions we request and why
+
+- **Location (fine/coarse):** to calculate accurate prayer times and the Qibla for
+  your position. Optional — you can use a manually selected city instead.
+- **Notifications:** to alert you (and play the adhan) at prayer times.
+- **Exact alarms (schedule/use exact alarm):** so the adhan sounds at the exact
+  time, even in battery-saver (Doze) mode.
+- **Run at startup (boot completed):** to re-schedule prayer reminders after your
+  device restarts.
+- **Vibrate:** for notification vibration.
+
+---
+
+## 3. Third-party services
+
+Salat relies on the following Google services, each governed by Google's own
+privacy policy:
+
+- **Google Firebase Analytics** — https://firebase.google.com/support/privacy
+- **Google AdMob** — https://support.google.com/admob/answer/6128543
+- **Google Privacy Policy** — https://policies.google.com/privacy
+
+We do not share data with any other third parties.
+
+---
+
+## 4. Your choices and rights
+
+- **Location:** grant, deny or revoke the permission in your device settings; use a
+  manual city instead.
+- **Ads personalization:** manage or reset your Advertising ID in
+  *Android Settings → Privacy → Ads*, and adjust your consent choices.
+- **Analytics:** you can limit ad/analytics tracking via your device's
+  privacy/ads settings.
+- Depending on your region (e.g. GDPR in the EEA/UK), you may have rights to
+  access, correct or delete personal data. Since we do not hold personal data
+  ourselves, such requests for analytics/ads data are handled by Google under their
+  policies linked above. You may also contact us at the address below.
+
+---
+
+## 5. Children
+
+Salat is not directed to children under 13 and we do not knowingly collect personal
+information from children. Ad content is configured to a family-friendly maximum
+rating.
+
+---
+
+## 6. Data retention
+
+We do not store your personal data. Locally cached data (your settings and last
+known location) remains on your device until you clear the app's data or uninstall
+the app. Analytics and advertising data are retained by Google according to their
+retention policies.
+
+---
+
+## 7. Changes to this policy
+
+We may update this Privacy Policy from time to time. Changes will be posted at this
+URL with an updated "Last updated" date. Continued use of the app after changes
+means you accept the updated policy.
+
+---
+
+## 8. Contact
+
+If you have questions about this Privacy Policy, contact us at:
+
+**tll.developers.apps@gmail.com**
+
+---
+
+---
+
+## Appendix — Google Play "Data safety" form (developer notes, NOT part of the public policy)
+
+When filling the Play Console **Data safety** section, declare what the app + its
+SDKs (AdMob, Firebase Analytics) actually do. Suggested answers:
+
+- **Does your app collect or share required user data?** Yes (via Google SDKs).
+- **Data types — Location:** *Approximate location* and *Precise location* —
+  **Collected** (used for app functionality; processed on-device, but the location
+  permission is used). Mark **not shared** with you; note ads SDK may use coarse
+  location. Purpose: App functionality (and Advertising, if AdMob uses it).
+- **Device or other IDs:** **Collected / Shared** — by AdMob (Advertising ID) and
+  Firebase. Purposes: Advertising/marketing, Analytics.
+- **App activity / App interactions:** **Collected** — Firebase Analytics.
+  Purpose: Analytics.
+- **App info and performance (diagnostics/crash):** **Collected** — Firebase.
+  Purpose: Analytics / app functionality.
+- **Is data encrypted in transit?** Yes (Google SDKs use HTTPS).
+- **Can users request deletion?** Provide the contact email; note most data is
+  handled by Google.
+- **Account / personal identifiers (name, email):** **Not collected** (no account).
+
+> Adjust to match the exact SDK versions and Google's current Data safety guidance
+> at publish time. This appendix is internal guidance — do not paste it into the
+> public privacy-policy page.
