@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word Trails — Privacy Policy</title>
+<meta name="description" content="Privacy policy of Word Trails, a word puzzle game by TLL Developers.">
+<meta name="theme-color" content="#EEF2F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151C1E" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" sizes="192x192" href="img/icon_192.png">
+<style>
+/* Shared by landing.html and privacy.html. The brace placeholders are brand colours
+   from marketing/config.yaml, filled by scripts/build_landing.mjs. */
+@font-face {
+  font-family: 'Lexend';
+  src: url('fonts/Lexend-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root {
+  color-scheme: light dark;
+  --canvas: #EEF2F0; --ink: #1F2A2E; --tile: #FFFFFF; --muted: #5E6E6B; --wall: #B9C3C0;
+  --accent: #2F7D6D; --line: color-mix(in srgb, #B9C3C0 55%, transparent); --shadow: rgba(31, 42, 46, 0.14);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --canvas: #151C1E; --ink: #E8EEEC; --tile: #222B2E; --muted: #9DAAA7; --wall: #2F3A3C;
+    --accent: color-mix(in srgb, #2F7D6D 55%, #FFFFFF); --line: #2F3A3C; --shadow: rgba(0, 0, 0, 0.45);
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--canvas); color: var(--ink);
+  font: 400 17px/1.55 'Lexend', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+a { color: var(--accent); }
+img { max-width: 100%; height: auto; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+.muted { color: var(--muted); }
+.site-footer { border-top: 1px solid var(--line); margin-top: 56px; padding: 28px 0 40px; font-size: 14px; color: var(--muted); }
+.site-footer p { margin: 6px 0; }
+.site-footer a { color: inherit; }
+
+.policy { max-width: 720px; padding-top: 28px; }
+.back { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-weight: 600; }
+.back img { width: 36px; height: 36px; border-radius: 22%; }
+h1 { font-weight: 600; font-size: 34px; margin: 28px 0 4px; letter-spacing: -0.01em; }
+h2 { font-weight: 600; font-size: 19px; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<main class="wrap policy">
+<a class="back" href="./"><img src="img/icon_192.png" width="36" height="36" alt="">Word Trails</a>
+<h1>Privacy Policy</h1>
+<p class="muted">Word Trails · TLL Developers · Last updated: 16 September 2026</p>
+
+<p>Word Trails ("the app") is a word puzzle game published by TLL Developers ("we"). This policy explains what data is processed when you use the app. The app does not require an account, and we do not ask for your name, email address or contacts.</p>
+
+<h2>1. Data stored on your device</h2>
+<p>Your progress (levels, daily results, streaks, statistics, coins, settings and in-progress puzzles) is stored only on your device. If Android backup is enabled on your phone, Android may include this data in your personal Google backup so it can be restored on a new device. We cannot access it.</p>
+
+<h2>2. Advertising (Google AdMob)</h2>
+<p>The app is free and shows ads served by Google AdMob. To serve and measure ads, Google may collect information such as your device's advertising ID, IP address, approximate location derived from it, device and app information, and ad interactions.</p>
+<p>If you are in the European Economic Area, the United Kingdom or Switzerland, the app asks for your consent through Google's User Messaging Platform before any ad is requested. You can change your choice at any time in <strong>Settings → Ad privacy choices</strong>. Elsewhere, you can limit personalised ads or reset your advertising ID in your Android settings.</p>
+<p>More information: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
+
+<h2>3. Where your install came from</h2>
+<p>On its first launch, the app reads the Google Play Install Referrer once, to know which listing, cross-promotion or ad led to the install. This is a short referrer string (for example, which of our other apps or campaigns you came from); it does not contain your name, email address or contacts.</p>
+
+<h2>4. Crash reports and usage analytics (Firebase)</h2>
+<p>To keep the app stable and understand how it is played, the app may use Google Firebase Crashlytics (crash reports: device model, OS version, app state at the time of a crash) and Firebase Analytics (anonymous gameplay events such as a puzzle being started or completed, hints used, and app opens). These data are not used to identify you and are not sold.</p>
+
+<h2>5. Notifications</h2>
+<p>If you turn on the daily reminder, the app schedules local notifications on your device. No data is sent to us for this.</p>
+
+<h2>6. Sharing</h2>
+<p>When you tap Share, the app hands a short text (your time and a grid of coloured squares, never the solution) to the Android share sheet. What happens next depends on the app you choose.</p>
+
+<h2>7. Children</h2>
+<p>The app is intended for a general audience aged 13 and over and is not directed at children.</p>
+
+<h2>8. Data retention and your choices</h2>
+<p>Local data stays on your device until you use <strong>Settings → Reset progress</strong>, clear the app's storage or uninstall it. For data processed by Google, see Google's privacy policy at <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+
+<h2>9. Changes</h2>
+<p>We may update this policy. The date above shows the latest version.</p>
+
+<h2>10. Contact</h2>
+<p>TLL Developers — <a href="mailto:tll.developers.apps@gmail.com">tll.developers.apps@gmail.com</a></p>
+</main>
+<footer class="site-footer">
+  <div class="wrap policy">
+    <p class="notice">Word Trails is an independent game by TLL Developers. It is not affiliated with, endorsed by or connected to any social network or other puzzle publisher.</p>
+    <p>© 2026 TLL Developers</p>
+  </div>
+</footer>
+</body>
+</html>
