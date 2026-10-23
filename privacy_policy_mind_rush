@@ -1,77 +1,67 @@
 Privacy Policy for MindRush
-Last Updated: February 12, 2026
+Last Updated: October 23, 2026
 
-TLL Developers ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by MindRush (the "App").
+TLL Developers ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and shared when you use MindRush: Daily Brain Puzzles (the "App").
 
-This Privacy Policy applies to our website, and its associated subdomains (collectively, our "Service") alongside our application, MindRush. By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.
+By using the App, you acknowledge that you have read and understood this Privacy Policy.
 
 1. Information We Collect
-We collect information to provide better services to all our users. The information we collect depends on how you use our App.
 
 A. Information You Provide to Us
-Account Data: When you launch the App, we use Firebase Anonymous Authentication to create a temporary account. This assigns you a unique User ID (uid) to store your progress. You do not need to provide a name, email, or phone number to play.
+Optional account data: You can play without providing a name or email. If you choose to create an account (or link your anonymous account), you provide an email address, a password and a nickname (display name). The password is handled by Firebase Authentication and is not visible to us. The nickname is optional (it defaults to "Anonymous") and may be shown to other players in the rankings, so please do not use your real name if you do not want it displayed.
 
-Game Data: We store your game progress, including high scores, daily streaks, puzzle completion times, and challenge history in our databases (Cloud Firestore).
+B. Information Created by Your Use of the App
+User ID: When you open the App, we use Firebase Authentication to create an anonymous account. This assigns you a unique Firebase User ID (uid) that identifies your progress.
 
-B. Information Collected Automatically
-Device Information: We collect information about the device you use to access the App, such as the hardware model, operating system version, and unique device identifiers.
+Game data: We store in Cloud Firestore your User ID, nickname (if any), email (if you created an account), account creation and last activity dates, high scores, daily streaks, points and the result (date and score) of each daily challenge you play.
 
-Usage Data: We use Firebase Analytics to collect data on how you interact with the App, such as which puzzles you play most, session duration, and crash reports.
+C. Information Collected Automatically
+Device and advertising identifiers: Google AdMob and Firebase may read your device's Advertising ID, app-set ID, Firebase installation ID and Firebase Cloud Messaging token.
 
-Advertising Data: We use Google AdMob to display advertisements. AdMob may collect and use your device's Advertising ID (AAID) to serve personalized or non-personalized ads.
+Usage and diagnostic data: Firebase Analytics collects automatically generated events about how you use the App (for example first open, sessions and screens viewed). Google AdMob collects your interactions with ads and diagnostic information such as app launches and crash rates.
+
+Approximate location: Google AdMob derives a general (approximate) location from your IP address in order to serve ads. The App does not request location permission and does not access your precise location.
 
 2. How We Use Your Information
-We use the information we collect for the following purposes:
+To provide the App: to create and maintain your account, save your progress, track streaks and show the rankings.
+To improve the App: to understand usage trends and fix problems (Firebase Analytics).
+To show advertisements: to keep MindRush free, we display banner, interstitial and rewarded ads through Google AdMob. AdMob also uses the data it collects for ad measurement, analytics and fraud prevention.
+To send notifications: the App asks for permission to show notifications and registers with Firebase Cloud Messaging, for example for Daily Challenge reminders. You can refuse or turn them off in your device settings.
 
-To Provide the Service: To track your daily streaks, save your progress (Scores, Challenges), and maintain your position on the Leaderboards.
+3. Third-Party Services and Data Sharing
+We use the following services from Google. Their own privacy policies apply to the data they process:
 
-To Improve the App: Analyzing usage trends (via Firebase Analytics) helps us balance puzzle difficulty (Flip Grid, Queens, etc.) and fix bugs.
+Google AdMob (advertising): receives and uses, for its own purposes of advertising, ad measurement and fraud prevention, your Advertising ID and other device identifiers, your interactions with ads, diagnostic information and your approximate location (from the IP address). This is the only third party with which data is shared for its own purposes.
+Google Mobile Ads / AdMob policy: https://policies.google.com/technologies/ads
+Google Privacy Policy: https://policies.google.com/privacy
 
-To Send Notifications: We use Firebase Cloud Messaging to send you reminders about the Daily Challenge or streak alerts. You can opt-out of these in your device settings.
+Firebase (Authentication, Cloud Firestore, Analytics, Cloud Messaging, Cloud Functions): backend services that process data on our behalf, such as accounts, game data, usage analytics and notifications.
+Firebase privacy information: https://firebase.google.com/support/privacy
 
-To Show Advertisements: To keep MindRush free, we display Banner, Interstitial, and Rewarded ads via AdMob.
-
-3. Third-Party Services and SDKs
-We share information with third-party vendors who provide services on our behalf. These partners have their own privacy policies:
-
-Google Firebase (Analytics, Auth, Firestore, Crashlytics, Messaging): Used for backend services, authentication, and data analysis.
-
-Google Privacy Policy
-
-Google AdMob: Used to display advertisements. AdMob may use cookies or unique device identifiers.
-
-AdMob & AdSense Privacy Policy
+We do not sell your personal data. The App does not use Firebase Crashlytics, Google Play Games or in-app purchases. All data is transmitted encrypted in transit (HTTPS/TLS).
 
 4. Data Retention
-We retain your game data (scores, streaks, user ID) in Cloud Firestore for as long as you use the App.
+We keep your account and game data (User ID, nickname, email, scores, streaks and challenge results) in Cloud Firestore for as long as your account exists, until you ask us to delete it. Anonymous accounts are tied to your installation: if you uninstall the App or clear its data you may lose access to your progress. Data processed by Google AdMob and Firebase Analytics is kept according to Google's policies.
 
-Since we use Anonymous Authentication, your data is tied to your specific installation/anonymous ID.
+5. Deleting Your Account and Data
+The App does not currently include a delete-account button. To request deletion of your account and its associated data (User ID, nickname, email, scores, streaks and challenge results):
+- Use the request page: https://tlldevelopers.github.io/PRIVACY_POLICIES/mindrush/delete-account/
+- Or email tll.developers.apps@gmail.com from the address linked to your account (or include your User ID, if you play anonymously).
+We delete the account and its data within 30 days of receiving your request. Deletion is permanent. You can also reset or delete your Advertising ID in your device settings (Settings > Google > Ads).
 
-If you uninstall the app or clear your data, you may lose access to your account and progress unless you have linked it to a permanent method (if available in future updates).
+6. Your Rights
+Depending on your location (for example under the GDPR or CCPA), you may have the right to access, correct or delete your personal data, and to object to or limit certain processing. To exercise these rights, contact us at the email below.
 
-5. Children's Privacy
-MindRush is designed for a general audience. We do not knowingly collect personally identifiable information from children under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.
+7. Children's Privacy
+MindRush is not directed to children under 13 and is not designed for children. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal data, contact us and we will delete it.
 
-6. Your Data Protection Rights (GDPR & CCPA)
-Depending on your location, you have certain rights regarding your personal data:
+8. Security
+We rely on the security measures of Google Cloud Platform and Firebase, including encryption in transit. However, no method of transmission over the internet or of electronic storage is 100% secure, and we cannot guarantee absolute security.
 
-The right to access: You can request copies of your personal data.
+9. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. We will post the new version on this page and update the "Last Updated" date above.
 
-The right to deletion: You can request that we delete your account and associated data (Scores, Streaks).
-
-The right to opt-out of ads: You can manage your advertising preferences directly through your device settings (Settings > Google > Ads > Delete advertising ID).
-
-To request account deletion: Please contact us at the email below with your User ID (found in the Profile/Settings section of the app), or use the "Delete Account" button within the app settings if available.
-
-7. Security
-We use industry-standard security measures (provided by Google Cloud Platform) to protect your data. However, no method of transmission over the internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
-
-8. Changes to This Privacy Policy
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
-
-9. Contact Us
+10. Contact Us
 If you have any questions about this Privacy Policy, please contact us:
-
 By email: tll.developers.apps@gmail.com
-
 Developer Name: TLL Developers
