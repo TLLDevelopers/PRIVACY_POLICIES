@@ -18,29 +18,46 @@ nav a{margin-right:1em}
 <section id="es" lang="es">
 <h1>Avisatren: política de privacidad</h1>
 <p>Aplicación: <strong>Avisatren</strong> (<code>com.tlldevelopers.avisatren</code>), de TLL Developers. Fecha de entrada en vigor: 24/10/2026.</p>
-<p>Avisatren es una app independiente: no está afiliada ni respaldada por Renfe, Adif ni Rodalies. Su finalidad es mostrar horarios de trenes de cercanías y avisarte del retraso de tu tren habitual.</p>
+<p>Avisatren es una app independiente: no está afiliada ni respaldada por Renfe, Adif ni Rodalies. Su finalidad es mostrar horarios de trenes de cercanías y avisarte del retraso de tu tren.</p>
 
 <h2>Resumen</h2>
-<p>No hay cuentas ni registro. No incluimos anuncios, analítica de terceros, rastreadores ni identificadores publicitarios. No pedimos ni enviamos tu ubicación. No tenemos servidor propio que reciba datos tuyos.</p>
+<p>No hay cuentas ni registro. La <strong>versión gratuita muestra anuncios de Google AdMob</strong> (un banner, un anuncio dentro de la lista y, solo si tú lo pides, un vídeo con recompensa); Google puede usar para ello el identificador de publicidad de tu móvil, con tu consentimiento donde la ley lo exige. <strong>Pro quita los anuncios.</strong> Tu ubicación, si das permiso, se usa solo en tu móvil para elegir tu estación más cercana: no se envía ni se guarda. No tenemos servidor propio que reciba datos tuyos y no usamos analítica de terceros.</p>
 
 <h2>Datos que se guardan en tu móvil</h2>
 <ul>
-<li>Tus trayectos favoritos, el núcleo elegido y la configuración de tus avisos de retraso (días, franja horaria, umbral de minutos).</li>
+<li>Tus trayectos favoritos, tus estaciones recientes, la estación y el núcleo elegidos y la configuración de tus avisos de retraso (días, franja horaria, umbral de minutos).</li>
 <li>Los horarios descargados (base de datos local) y la última foto de los datos en tiempo real, para poder mostrarlos sin conexión.</li>
-<li>El estado de Pro (para saber si la compra sigue vigente) y qué avisos ya se te han notificado, para no repetirlos.</li>
+<li>El estado de Pro (para saber si la compra sigue vigente), si has desbloqueado los avisos Pro durante 24 h viendo un vídeo y hasta cuándo, y qué avisos ya se te han notificado, para no repetirlos.</li>
+<li>Contadores de uso de las ofertas de Pro (cuántas veces se ha enseñado una oferta, cuántas has aceptado…). Son números que se quedan en tu móvil; no se envían a ningún sitio.</li>
 </ul>
 <p>Todo esto se queda en el móvil, no se nos envía y se borra al desinstalar la app o borrar sus datos.</p>
+
+<h2>Ubicación (opcional)</h2>
+<p>Al empezar, la app te ofrece usar tu ubicación solo para mostrarte la estación más cercana (y, más adelante, avisarte si estás cerca de otra). La posición se lee en el momento, se compara en tu móvil con un catálogo de estaciones que viaja dentro de la app y se descarta: no se guarda, no se envía a nadie y no se usa en segundo plano. Puedes dar solo la ubicación aproximada, negarla o retirarla en los ajustes de Android; la app funciona igual buscando tu estación por su nombre.</p>
+
+<h2>Anuncios (versión gratuita)</h2>
+<ul>
+<li>La versión gratuita incluye anuncios de <strong>Google AdMob</strong>: un banner al pie del panel de salidas, un anuncio nativo etiquetado «Anuncio» dentro de la lista y un vídeo con recompensa opcional («mira un vídeo y desbloquea los avisos Pro 24 h»). No hay anuncios a pantalla completa que aparezcan solos.</li>
+<li>Para mostrarlos, el SDK de Google puede recoger y compartir con Google datos como el <strong>identificador de publicidad</strong>, la dirección IP, datos del dispositivo y de rendimiento, e interacciones con los anuncios (impresiones y clics). Google es responsable de ese tratamiento: <a href="https://policies.google.com/technologies/partner-sites">cómo usa Google los datos</a>.</li>
+<li>En el Espacio Económico Europeo y el Reino Unido, la app te pide <strong>consentimiento</strong> (formulario de Google UMP) antes de inicializar el SDK de anuncios; sin consentimiento no se piden anuncios. Puedes cambiarlo en Ajustes &gt; «Opciones de privacidad de anuncios».</li>
+<li>Puedes restablecer o borrar el identificador de publicidad, o desactivar la personalización de anuncios, en los ajustes de tu móvil (Google &gt; Anuncios).</li>
+<li><strong>Con Pro la app no carga anuncios.</strong></li>
+<li>La app no se dirige a menores y no marca sus peticiones de anuncios como dirigidas a menores.</li>
+</ul>
 
 <h2>Conexiones de red</h2>
 <ul>
 <li><strong>Servidores públicos del operador de los datos (Renfe Operadora):</strong> la app descarga los horarios y consulta los datos en tiempo real (retrasos, cancelaciones, andenes, avisos de línea). Como en cualquier conexión a internet, ese servidor puede ver la dirección IP de tu móvil y la petición; no enviamos ningún identificador tuyo. Se rigen por las condiciones y la política del operador.</li>
-<li><strong>Google Play:</strong> para las compras de Pro (suscripción anual y pago único). El pago y los datos de facturación los gestiona Google Play; nosotros no los recibimos, solo sabemos si la compra está activa. Se rigen por la política de privacidad de Google.</li>
+<li><strong>Google Play:</strong> para las compras de Pro (suscripción anual y pago único). El pago y los datos de facturación los gestiona Google Play; nosotros no los recibimos, solo sabemos si la compra está activa.</li>
+<li><strong>Google AdMob:</strong> solo en la versión gratuita y tras el consentimiento cuando proceda, para cargar los anuncios descritos arriba.</li>
 </ul>
 
 <h2>Permisos</h2>
 <ul>
-<li><code>INTERNET</code>: descargar horarios y datos en tiempo real.</li>
+<li><code>INTERNET</code>: descargar horarios, datos en tiempo real y anuncios.</li>
+<li><code>ACCESS_COARSE_LOCATION</code> y <code>ACCESS_FINE_LOCATION</code>: ubicación opcional, solo con la app abierta, para elegir la estación más cercana.</li>
 <li><code>POST_NOTIFICATIONS</code> (Android 13 o superior): mostrar los avisos de retraso. Se pide cuando creas tu primer aviso; puedes denegarlo y la app sigue funcionando sin avisos.</li>
+<li><code>com.google.android.gms.permission.AD_ID</code>: acceso al identificador de publicidad para los anuncios de la versión gratuita.</li>
 </ul>
 <p>El aviso de retraso funciona con una tarea periódica del propio móvil, dentro de la franja que elijas. No usa Firebase ni ningún servicio de mensajería nuestro.</p>
 
@@ -51,10 +68,10 @@ nav a{margin-right:1em}
 <p>La app no está dirigida a menores de 13 años ni recoge datos personales de nadie.</p>
 
 <h2>Tus derechos y contacto</h2>
-<p>Como no tenemos tus datos, no hay nada que acceder, rectificar o borrar en nuestros sistemas; puedes borrar todo lo local desinstalando la app. Si tienes dudas: <a href="mailto:tll.developers.apps@gmail.com?subject=Avisatren%20privacidad">tll.developers.apps@gmail.com</a>.</p>
+<p>Los datos de la app están en tu móvil; puedes borrarlos desinstalando la app. Los datos que recoge Google para los anuncios se rigen por la política de Google, donde puedes ejercer tus derechos. Si tienes dudas: <a href="mailto:tll.developers.apps@gmail.com?subject=Avisatren%20privacidad">tll.developers.apps@gmail.com</a>.</p>
 
 <h2>Cambios</h2>
-<p>Si cambia el tratamiento de datos (por ejemplo, si en el futuro se añaden avisos por servidor), actualizaremos esta página y la fecha de arriba antes de publicar el cambio.</p>
+<p>Si cambia el tratamiento de datos (por ejemplo, si en el futuro se añaden avisos por servidor o analítica), actualizaremos esta página y la fecha de arriba antes de publicar el cambio.</p>
 </section>
 
 <hr>
@@ -62,29 +79,46 @@ nav a{margin-right:1em}
 <section id="ca" lang="ca">
 <h1>Avisatren: política de privadesa</h1>
 <p>Aplicació: <strong>Avisatren</strong> (<code>com.tlldevelopers.avisatren</code>), de TLL Developers. Data d'entrada en vigor: 24/10/2026.</p>
-<p>Avisatren és una app independent: no està afiliada ni avalada per Renfe, Adif ni Rodalies. La seva finalitat és mostrar horaris de trens de rodalia i avisar-te del retard del teu tren habitual.</p>
+<p>Avisatren és una app independent: no està afiliada ni avalada per Renfe, Adif ni Rodalies. La seva finalitat és mostrar horaris de trens de rodalia i avisar-te del retard del teu tren.</p>
 
 <h2>Resum</h2>
-<p>No hi ha comptes ni registre. No incloem anuncis, analítica de tercers, rastrejadors ni identificadors publicitaris. No demanem ni enviem la teva ubicació. No tenim cap servidor propi que rebi dades teves.</p>
+<p>No hi ha comptes ni registre. La <strong>versió gratuïta mostra anuncis de Google AdMob</strong> (un bàner, un anunci dins la llista i, només si tu ho demanes, un vídeo amb recompensa); Google pot fer servir per a això l'identificador de publicitat del teu mòbil, amb el teu consentiment allà on la llei ho exigeix. <strong>Pro treu els anuncis.</strong> La teva ubicació, si dones permís, s'utilitza només al teu mòbil per triar la teva estació més propera: no s'envia ni es desa. No tenim cap servidor propi que rebi dades teves i no fem servir analítica de tercers.</p>
 
 <h2>Dades que es guarden al teu mòbil</h2>
 <ul>
-<li>Els teus trajectes preferits, el nucli triat i la configuració dels avisos de retard (dies, franja horària, llindar de minuts).</li>
+<li>Els teus trajectes preferits, les estacions recents, l'estació i el nucli triats i la configuració dels avisos de retard (dies, franja horària, llindar de minuts).</li>
 <li>Els horaris descarregats (base de dades local) i l'última foto de les dades en temps real, per poder mostrar-los sense connexió.</li>
-<li>L'estat de Pro (per saber si la compra continua vigent) i quins avisos ja t'han notificat, per no repetir-los.</li>
+<li>L'estat de Pro (per saber si la compra continua vigent), si has desbloquejat els avisos Pro durant 24 h veient un vídeo i fins quan, i quins avisos ja t'han notificat, per no repetir-los.</li>
+<li>Comptadors d'ús de les ofertes de Pro (quantes vegades s'ha mostrat una oferta, quantes has acceptat…). Són números que es queden al teu mòbil; no s'envien enlloc.</li>
 </ul>
 <p>Tot això es queda al mòbil, no se'ns envia i s'esborra en desinstal·lar l'app o esborrar-ne les dades.</p>
+
+<h2>Ubicació (opcional)</h2>
+<p>En començar, l'app t'ofereix utilitzar la teva ubicació només per mostrar-te l'estació més propera (i, més endavant, avisar-te si ets a prop d'una altra). La posició es llegeix en el moment, es compara al teu mòbil amb un catàleg d'estacions que viatja dins l'app i es descarta: no es desa, no s'envia a ningú i no s'utilitza en segon pla. Pots donar només la ubicació aproximada, denegar-la o retirar-la als ajustos d'Android; l'app funciona igual cercant l'estació pel nom.</p>
+
+<h2>Anuncis (versió gratuïta)</h2>
+<ul>
+<li>La versió gratuïta inclou anuncis de <strong>Google AdMob</strong>: un bàner al peu del panell de sortides, un anunci natiu etiquetat «Anunci» dins la llista i un vídeo amb recompensa opcional («mira un vídeo i desbloqueja els avisos Pro 24 h»). No hi ha anuncis a pantalla completa que apareguin sols.</li>
+<li>Per mostrar-los, l'SDK de Google pot recollir i compartir amb Google dades com l'<strong>identificador de publicitat</strong>, l'adreça IP, dades del dispositiu i de rendiment, i interaccions amb els anuncis (impressions i clics). Google és responsable d'aquest tractament: <a href="https://policies.google.com/technologies/partner-sites">com fa servir Google les dades</a>.</li>
+<li>A l'Espai Econòmic Europeu i al Regne Unit, l'app et demana <strong>consentiment</strong> (formulari de Google UMP) abans d'inicialitzar l'SDK d'anuncis; sense consentiment no es demanen anuncis. Pots canviar-ho a Ajustos &gt; «Opcions de privadesa dels anuncis».</li>
+<li>Pots restablir o esborrar l'identificador de publicitat, o desactivar la personalització d'anuncis, als ajustos del teu mòbil (Google &gt; Anuncis).</li>
+<li><strong>Amb Pro l'app no carrega anuncis.</strong></li>
+<li>L'app no s'adreça a menors i no marca les seves peticions d'anuncis com a adreçades a menors.</li>
+</ul>
 
 <h2>Connexions de xarxa</h2>
 <ul>
 <li><strong>Servidors públics de l'operador de les dades (Renfe Operadora):</strong> l'app descarrega els horaris i consulta les dades en temps real (retards, cancel·lacions, andanes, avisos de línia). Com en qualsevol connexió a internet, aquest servidor pot veure l'adreça IP del teu mòbil i la petició; no enviem cap identificador teu. Es regeixen per les condicions i la política de l'operador.</li>
 <li><strong>Google Play:</strong> per a les compres de Pro (subscripció anual i pagament únic). El pagament i les dades de facturació els gestiona Google Play; nosaltres no els rebem, només sabem si la compra està activa.</li>
+<li><strong>Google AdMob:</strong> només a la versió gratuïta i després del consentiment quan correspongui, per carregar els anuncis descrits a dalt.</li>
 </ul>
 
 <h2>Permisos</h2>
 <ul>
-<li><code>INTERNET</code>: descarregar horaris i dades en temps real.</li>
+<li><code>INTERNET</code>: descarregar horaris, dades en temps real i anuncis.</li>
+<li><code>ACCESS_COARSE_LOCATION</code> i <code>ACCESS_FINE_LOCATION</code>: ubicació opcional, només amb l'app oberta, per triar l'estació més propera.</li>
 <li><code>POST_NOTIFICATIONS</code> (Android 13 o superior): mostrar els avisos de retard. Es demana quan crees el primer avís; pots denegar-lo i l'app continua funcionant sense avisos.</li>
+<li><code>com.google.android.gms.permission.AD_ID</code>: accés a l'identificador de publicitat per als anuncis de la versió gratuïta.</li>
 </ul>
 
 <h2>Compres</h2>
@@ -94,7 +128,7 @@ nav a{margin-right:1em}
 <p>L'app no s'adreça a menors de 13 anys ni recull dades personals de ningú.</p>
 
 <h2>Drets i contacte</h2>
-<p>Com que no tenim les teves dades, no hi ha res a accedir, rectificar o esborrar als nostres sistemes; pots esborrar tot el local desinstal·lant l'app. Per a dubtes: <a href="mailto:tll.developers.apps@gmail.com?subject=Avisatren%20privadesa">tll.developers.apps@gmail.com</a>.</p>
+<p>Les dades de l'app són al teu mòbil; pots esborrar-les desinstal·lant l'app. Les dades que recull Google per als anuncis es regeixen per la política de Google, on pots exercir els teus drets. Per a dubtes: <a href="mailto:tll.developers.apps@gmail.com?subject=Avisatren%20privadesa">tll.developers.apps@gmail.com</a>.</p>
 </section>
 
 <hr>
@@ -102,31 +136,47 @@ nav a{margin-right:1em}
 <section id="en" lang="en">
 <h1>Avisatren: privacy policy</h1>
 <p>App: <strong>Avisatren</strong> (<code>com.tlldevelopers.avisatren</code>), by TLL Developers. Effective date: 24/10/2026.</p>
-<p>Avisatren is an independent app: it is not affiliated with or endorsed by Renfe, Adif or Rodalies. It shows Spanish commuter train timetables and warns you when your usual train is late.</p>
+<p>Avisatren is an independent app: it is not affiliated with or endorsed by Renfe, Adif or Rodalies. It shows Spanish commuter train timetables and warns you when your train is late.</p>
 
 <h2>Summary</h2>
-<p>No accounts and no sign-up. No ads, no third-party analytics, no trackers and no advertising identifiers. We neither request nor send your location. We do not run a server that receives your data.</p>
+<p>No accounts and no sign-up. The <strong>free version shows Google AdMob ads</strong> (a banner, one ad inside the list and, only if you ask for it, a rewarded video); Google may use your phone's advertising ID for that, with your consent where the law requires it. <strong>Pro removes the ads.</strong> Your location, if you allow it, is used only on your phone to pick your nearest station: it is never sent or stored. We run no server that receives your data and we use no third-party analytics.</p>
 
 <h2>Data stored on your phone</h2>
 <ul>
-<li>Your favourite trips, the chosen network and your delay alert settings (days, time window, minutes threshold).</li>
+<li>Your favourite trips, your recent stations, the chosen station and network, and your delay alert settings (days, time window, minutes threshold).</li>
 <li>Downloaded timetables (local database) and the last snapshot of live data, so they can be shown offline.</li>
-<li>Your Pro status (to know whether the purchase is still valid) and which alerts were already notified, to avoid repeats.</li>
+<li>Your Pro status (to know whether the purchase is still valid), whether you unlocked Pro alerts for 24 h by watching a video and until when, and which alerts were already notified, to avoid repeats.</li>
+<li>Usage counters for the Pro offers (how many times an offer was shown, how many you accepted…). They are numbers that stay on your phone; they are not sent anywhere.</li>
 </ul>
 <p>All of this stays on the phone, is not sent to us, and is deleted when you uninstall the app or clear its data.</p>
+
+<h2>Location (optional)</h2>
+<p>At first launch the app offers to use your location only to show you the nearest station (and later to tell you when you are near another one). The position is read on the spot, compared on your phone with a catalogue of stations that ships inside the app, and discarded: it is not stored, not sent to anyone and not used in the background. You can grant approximate location only, deny it, or withdraw it in Android settings; the app works the same when you search for your station by name.</p>
+
+<h2>Ads (free version)</h2>
+<ul>
+<li>The free version includes <strong>Google AdMob</strong> ads: a banner at the bottom of the departures board, one native ad labelled "Ad" inside the list and an optional rewarded video ("watch a video to unlock Pro alerts for 24 h"). There are no full-screen ads that pop up on their own.</li>
+<li>To show them, Google's SDK may collect and share with Google data such as the <strong>advertising ID</strong>, IP address, device and performance data, and ad interactions (impressions and clicks). Google is responsible for that processing: <a href="https://policies.google.com/technologies/partner-sites">how Google uses data</a>.</li>
+<li>In the European Economic Area and the UK the app asks for <strong>consent</strong> (Google UMP form) before initialising the ads SDK; without consent no ads are requested. You can change it in Settings &gt; "Ad privacy options".</li>
+<li>You can reset or delete the advertising ID, or turn off ad personalisation, in your phone settings (Google &gt; Ads).</li>
+<li><strong>With Pro the app loads no ads.</strong></li>
+<li>The app is not directed at children and does not flag its ad requests as child-directed.</li>
+</ul>
 
 <h2>Network connections</h2>
 <ul>
 <li><strong>Public servers of the data operator (Renfe Operadora):</strong> the app downloads timetables and queries live data (delays, cancellations, platforms, line notices). As with any internet connection, that server can see your phone's IP address and the request; we send no identifier of yours. They are governed by the operator's own terms and policy.</li>
-<li><strong>Google Play:</strong> for Pro purchases (yearly subscription and one-time payment). Google Play handles payment and billing data; we do not receive it and only learn whether a purchase is active. Governed by Google's privacy policy.</li>
+<li><strong>Google Play:</strong> for Pro purchases (yearly subscription and one-time payment). Google Play handles payment and billing data; we do not receive it and only learn whether a purchase is active.</li>
+<li><strong>Google AdMob:</strong> only in the free version and after consent where applicable, to load the ads described above.</li>
 </ul>
 
 <h2>Permissions</h2>
 <ul>
-<li><code>INTERNET</code>: download timetables and live data.</li>
+<li><code>INTERNET</code>: download timetables, live data and ads.</li>
+<li><code>ACCESS_COARSE_LOCATION</code> and <code>ACCESS_FINE_LOCATION</code>: optional location, only while the app is open, to pick the nearest station.</li>
 <li><code>POST_NOTIFICATIONS</code> (Android 13+): show delay alerts. Requested when you create your first alert; you can deny it and the app keeps working without alerts.</li>
+<li><code>com.google.android.gms.permission.AD_ID</code>: access to the advertising ID for the free version's ads.</li>
 </ul>
-<p>Delay alerts run from a periodic task on your own phone, inside the time window you choose. They do not use Firebase or any messaging service of ours.</p>
 
 <h2>Purchases</h2>
 <p>Pro is bought through Google Play Billing. You can cancel the subscription in Google Play &gt; Payments &amp; subscriptions.</p>
@@ -135,10 +185,10 @@ nav a{margin-right:1em}
 <p>The app is not directed at children under 13 and does not collect personal data from anyone.</p>
 
 <h2>Your rights and contact</h2>
-<p>Because we do not hold your data, there is nothing to access, correct or delete on our systems; you can erase everything local by uninstalling the app. Questions: <a href="mailto:tll.developers.apps@gmail.com?subject=Avisatren%20privacy">tll.developers.apps@gmail.com</a>.</p>
+<p>The app's data lives on your phone; you can erase it by uninstalling the app. The data Google collects for ads is governed by Google's policy, where you can exercise your rights. Questions: <a href="mailto:tll.developers.apps@gmail.com?subject=Avisatren%20privacy">tll.developers.apps@gmail.com</a>.</p>
 
 <h2>Changes</h2>
-<p>If data handling changes (for example if server-based alerts are added later), we will update this page and the date above before releasing the change.</p>
+<p>If data handling changes (for example if server-based alerts or analytics are added later), we will update this page and the date above before releasing the change.</p>
 </section>
 </body>
 </html>
