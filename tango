@@ -1,4 +1,4 @@
-Effective Date: November 16, 2025
+Effective Date: November 16, 2025 (last updated October 30, 2026)
 
 TLL Corp. ("us", "we", or "our") operates the Tango (Sun & Moon Logic Puzzle) mobile application (hereinafter referred to as the "Service").
 
@@ -91,6 +91,20 @@ The security of your data is important to us. We use commercially reasonable met
 
 6. Children's Privacy
 Our Service is not directed to anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information. If you are a parent or guardian and you are aware that your child has provided us with personal data, please contact us.
+
+Data processed by third-party SDKs (as declared in Google Play Data safety)
+
+This section lists, for Tango, the data processed by the third-party SDKs included in the app. It matches the Data safety form of the app on Google Play.
+
+- Google AdMob (advertising): collects and shares with Google the advertising ID / app set ID and other device identifiers, an approximate location derived from your IP address, ad interactions (impressions, clicks) and diagnostics (such as app launches and performance). Purposes: advertising, ad measurement and analytics, and fraud prevention and security. We do not receive your name or contact details from AdMob.
+- Firebase Analytics (Google): app interactions (events and screens viewed), the Firebase installation ID / device identifiers, and basic device and app information. Purposes: analytics and app functionality.
+- Firebase Crashlytics (Google): crash logs and diagnostics (stack trace, device model, Android and app version, a random installation ID). Purposes: analytics and app stability.
+- Firebase Cloud Messaging (Google): a push token / Firebase installation ID, used to deliver notifications. Purpose: app functionality.
+
+Consent: where required (European Economic Area, United Kingdom, Switzerland) the app asks for your consent through Google's User Messaging Platform (UMP) before showing ads.
+Ad choices: you can reset or delete your advertising ID and opt out of ads personalisation in Android Settings > Google > Ads.
+Security: data sent to these services travels encrypted in transit (HTTPS/TLS).
+Data deletion: to ask for the deletion of data linked to you, use https://tlldevelopers.com/tango-delete-account.html or write to tll.developers.apps@gmail.com.
 
 7. Changes to This Privacy Policy
 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.

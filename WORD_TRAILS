@@ -1,6 +1,6 @@
 Word Trails
 Privacy Policy
-Word Trails · TLL Developers · Last updated: 16 September 2026
+Word Trails · TLL Developers · Last updated: 30 October 2026
 
 Word Trails ("the app") is a word puzzle game published by TLL Developers ("we"). This policy explains what data is processed when you use the app. The app does not require an account, and we do not ask for your name, email address or contacts.
 
@@ -31,6 +31,18 @@ The app is intended for a general audience aged 13 and over and is not directed 
 
 8. Data retention and your choices
 Local data stays on your device until you use Settings → Reset progress, clear the app's storage or uninstall it. For data processed by Google, see Google's privacy policy at policies.google.com/privacy.
+
+Data processed by third-party SDKs (as declared in Google Play Data safety)
+
+This section lists, for Word Trails, the data processed by the third-party SDKs included in the app. It matches the Data safety form of the app on Google Play.
+
+- Google AdMob (advertising): collects and shares with Google the advertising ID / app set ID and other device identifiers, an approximate location derived from your IP address, ad interactions (impressions, clicks) and diagnostics (such as app launches and performance). Purposes: advertising, ad measurement and analytics, and fraud prevention and security. We do not receive your name or contact details from AdMob.
+- Firebase Analytics (Google): app interactions (events and screens viewed), the Firebase installation ID / device identifiers, and basic device and app information. Purposes: analytics and app functionality.
+- Firebase Crashlytics (Google): crash logs and diagnostics (stack trace, device model, Android and app version, a random installation ID). Purposes: analytics and app stability.
+
+Ad choices: you can reset or delete your advertising ID and opt out of ads personalisation in Android Settings > Google > Ads.
+Security: data sent to these services travels encrypted in transit (HTTPS/TLS).
+Data deletion: the app has no user accounts. Data stored on your device is deleted by uninstalling the app or clearing its data; for data held by Google (advertising ID, analytics), reset your advertising ID as described above or write to tll.developers.apps@gmail.com and we will help with the request.
 
 9. Changes
 We may update this policy. The date above shows the latest version.

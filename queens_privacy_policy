@@ -1,6 +1,6 @@
 Privacy Policy
 
-Last updated: 2026/02/18
+Last updated: 2026/10/30
 
 TLL Corp. ("we", "our", or "us") operates the mobile application Queens – Daily Logic Puzzle (the "App").
 
@@ -140,7 +140,20 @@ You can manage ad personalization in your device settings.
 For any requests, contact us at:
 
 📧 tll.developers.apps@gmail.com
-]
+
+Data processed by third-party SDKs (as declared in Google Play Data safety)
+
+This section lists, for Queens, the data processed by the third-party SDKs included in the app. It matches the Data safety form of the app on Google Play.
+
+- Google AdMob (advertising): collects and shares with Google the advertising ID / app set ID and other device identifiers, an approximate location derived from your IP address, ad interactions (impressions, clicks) and diagnostics (such as app launches and performance). Purposes: advertising, ad measurement and analytics, and fraud prevention and security. We do not receive your name or contact details from AdMob.
+- Firebase Analytics (Google): app interactions (events and screens viewed), the Firebase installation ID / device identifiers, and basic device and app information. Purposes: analytics and app functionality.
+- Firebase Crashlytics (Google): crash logs and diagnostics (stack trace, device model, Android and app version, a random installation ID). Purposes: analytics and app stability.
+- Firebase Cloud Messaging (Google): a push token / Firebase installation ID, used to deliver notifications. Purpose: app functionality.
+
+Consent: where required (European Economic Area, United Kingdom, Switzerland) the app asks for your consent through Google's User Messaging Platform (UMP) before showing ads.
+Ad choices: you can reset or delete your advertising ID and opt out of ads personalisation in Android Settings > Google > Ads.
+Security: data sent to these services travels encrypted in transit (HTTPS/TLS).
+Data deletion: the app has no user accounts. Data stored on your device is deleted by uninstalling the app or clearing its data; for data held by Google (advertising ID, analytics), reset your advertising ID as described above or write to tll.developers.apps@gmail.com and we will help with the request.
 
 9. Changes to This Policy
 
