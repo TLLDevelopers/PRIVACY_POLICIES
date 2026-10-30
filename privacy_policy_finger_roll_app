@@ -1,6 +1,6 @@
 Privacy Policy – FingerRoll
 
-Effective Date: August 26, 2025
+Effective Date: August 26, 2025 (last updated October 30, 2026)
 
 FingerRoll (“we”, “our”, or “us”) respects your privacy and is committed to protecting it. This Privacy Policy explains how we handle information when you use our mobile application FingerRoll.
 
@@ -16,7 +16,7 @@ We do NOT collect:
 
 Your name, email, phone number, or any sensitive personal data.
 
-Location data.
+Precise location data (GPS). Note that Google AdMob derives an approximate location from your IP address (see below).
 
 2. How We Use Your Data
 
@@ -36,7 +36,18 @@ Collect only anonymized or aggregated data.
 
 Do not identify individual users personally.
 
-We do not share your personal data with advertisers or marketers.
+The app shows ads served by Google AdMob, which receives the data described below. We do not sell your personal data or share your name or contact details with advertisers or marketers.
+
+Data processed by third-party SDKs (as declared in Google Play Data safety)
+
+This section lists, for FingerRoll, the data processed by the third-party SDKs included in the app. It matches the Data safety form of the app on Google Play.
+
+- Google AdMob (advertising): collects and shares with Google the advertising ID / app set ID and other device identifiers, an approximate location derived from your IP address, ad interactions (impressions, clicks) and diagnostics (such as app launches and performance). Purposes: advertising, ad measurement and analytics, and fraud prevention and security. We do not receive your name or contact details from AdMob.
+- Firebase Analytics (Google): app interactions (events and screens viewed), the Firebase installation ID / device identifiers, and basic device and app information. Purposes: analytics and app functionality.
+
+Ad choices: you can reset or delete your advertising ID and opt out of ads personalisation in Android Settings > Google > Ads.
+Security: data sent to these services travels encrypted in transit (HTTPS/TLS).
+Data deletion: the app has no user accounts. Data stored on your device is deleted by uninstalling the app or clearing its data; for data held by Google (advertising ID, analytics), reset your advertising ID as described above or write to tll.developers.apps@gmail.com and we will help with the request.
 
 4. Data Security
 
@@ -54,7 +65,7 @@ Request information about the data we collect.
 
 Request deletion of any data associated with your device.
 
-For inquiries, contact: privacy@fingerrollapp.com
+For inquiries, contact: tll.developers.apps@gmail.com
 
 7. Changes to This Policy
 

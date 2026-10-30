@@ -1,5 +1,5 @@
 Privacy Policy for Don't Tap the Color
-Last Updated: 27/01/2026
+Last Updated: 30/10/2026
 
 TLL Developers ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Don't Tap the Color (the "App").
 
@@ -76,6 +76,18 @@ We value your trust in providing us your Personal Information, thus we are striv
 
 7. Children’s Privacy
 The App is not intended for children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us.
+
+Data processed by third-party SDKs (as declared in Google Play Data safety)
+
+This section lists, for Don't Tap the Color, the data processed by the third-party SDKs included in the app. It matches the Data safety form of the app on Google Play.
+
+- Google AdMob (advertising): collects and shares with Google the advertising ID / app set ID and other device identifiers, an approximate location derived from your IP address, ad interactions (impressions, clicks) and diagnostics (such as app launches and performance). Purposes: advertising, ad measurement and analytics, and fraud prevention and security. We do not receive your name or contact details from AdMob.
+- Firebase Analytics (Google): app interactions (events and screens viewed), the Firebase installation ID / device identifiers, and basic device and app information. Purposes: analytics and app functionality.
+- Firebase Cloud Messaging (Google): a push token / Firebase installation ID, used to deliver notifications. Purpose: app functionality.
+
+Ad choices: you can reset or delete your advertising ID and opt out of ads personalisation in Android Settings > Google > Ads.
+Security: data sent to these services travels encrypted in transit (HTTPS/TLS).
+Data deletion: the app has no user accounts. Data stored on your device is deleted by uninstalling the app or clearing its data; for data held by Google (advertising ID, analytics), reset your advertising ID as described above or write to tll.developers.apps@gmail.com and we will help with the request.
 
 8. Changes to This Privacy Policy
 We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted.

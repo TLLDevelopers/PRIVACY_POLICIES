@@ -1,7 +1,7 @@
 Privacy Policy for Tile Shift
-Last updated: 32/03/2026
+Last updated: 30/10/2026
 
-TLL DEVELOPERS CORP. ("we", "us", or "our") built the Tile Shift app as a [Free / Ad-Supported / Freemium] app. This SERVICE is provided by WE at no cost and is intended for use as is.
+TLL DEVELOPERS CORP. ("we", "us", or "our") built the Tile Shift app as a free, ad-supported app. This SERVICE is provided by us at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
 
@@ -25,6 +25,18 @@ AdMob
 
 3. Log Data
 We want to inform you that whenever you use our Service, in a case of an error in the app, we collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol ("IP") address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics to help us fix crashes and improve the game.
+
+Data processed by third-party SDKs (as declared in Google Play Data safety)
+
+This section lists, for Tile Shift, the data processed by the third-party SDKs included in the app. It matches the Data safety form of the app on Google Play.
+
+- Google AdMob (advertising): collects and shares with Google the advertising ID / app set ID and other device identifiers, an approximate location derived from your IP address, ad interactions (impressions, clicks) and diagnostics (such as app launches and performance). Purposes: advertising, ad measurement and analytics, and fraud prevention and security. We do not receive your name or contact details from AdMob.
+- Firebase Analytics (Google): app interactions (events and screens viewed), the Firebase installation ID / device identifiers, and basic device and app information. Purposes: analytics and app functionality.
+- Firebase Cloud Messaging (Google): a push token / Firebase installation ID, used to deliver notifications. Purpose: app functionality.
+
+Ad choices: you can reset or delete your advertising ID and opt out of ads personalisation in Android Settings > Google > Ads.
+Security: data sent to these services travels encrypted in transit (HTTPS/TLS).
+Data deletion: the app has no user accounts. Data stored on your device is deleted by uninstalling the app or clearing its data; for data held by Google (advertising ID, analytics), reset your advertising ID as described above or write to tll.developers.apps@gmail.com and we will help with the request.
 
 4. Security
 We value your trust in providing us your information (such as anonymous analytics data), thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
