@@ -1,6 +1,6 @@
 📜 Privacy Policy – Flippy Bird
 
-Effective Date: 14/09/2025
+Effective Date: 14/09/2025 (last updated 30/10/2026)
 
 Flippy Bird ("the Game", "we", "our", "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard information when you use our mobile game.
 
@@ -8,7 +8,7 @@ Flippy Bird ("the Game", "we", "our", "us") respects your privacy and is committ
 
 When you use Flippy Bird, we may collect the following information:
 
-Account Information: Your Google Play Games account ID and display name, used for authentication and leaderboard features.
+Account Information: When you sign in with Google (Firebase Authentication), your email address, display name and a Firebase user ID, used for authentication and leaderboard features.
 
 Gameplay Data: Your highest scores for different game modes, stored in Firebase to display in leaderboards.
 
@@ -49,6 +49,22 @@ If you do not log in with Google Play Games, you will not have access to the lea
 You can disable personalized ads through your device settings.
 
 You may request deletion of your leaderboard data by contacting us.
+
+Data processed by third-party SDKs (as declared in Google Play Data safety)
+
+This section lists, for Flippy Bird (Tap To Fly), the data processed by the third-party SDKs included in the app. It matches the Data safety form of the app on Google Play.
+
+- Google AdMob (advertising): collects and shares with Google the advertising ID / app set ID and other device identifiers, an approximate location derived from your IP address, ad interactions (impressions, clicks) and diagnostics (such as app launches and performance). Purposes: advertising, ad measurement and analytics, and fraud prevention and security. We do not receive your name or contact details from AdMob.
+- Firebase Analytics (Google): app interactions (events and screens viewed), the Firebase installation ID / device identifiers, and basic device and app information. Purposes: analytics and app functionality.
+- Firebase Crashlytics (Google): crash logs and diagnostics (stack trace, device model, Android and app version, a random installation ID). Purposes: analytics and app stability.
+- Firebase Cloud Messaging (Google): a push token / Firebase installation ID, used to deliver notifications. Purpose: app functionality.
+- Account data (Firebase Authentication with Google Sign-In): email address, display name and user ID. Purposes: app functionality and account management.
+- Scores and progress (Cloud Firestore): your best scores per game mode, tied to your user ID, to show the leaderboards. Purpose: app functionality.
+
+Consent: where required (European Economic Area, United Kingdom, Switzerland) the app asks for your consent through Google's User Messaging Platform (UMP) before showing ads.
+Ad choices: you can reset or delete your advertising ID and opt out of ads personalisation in Android Settings > Google > Ads.
+Security: data sent to these services travels encrypted in transit (HTTPS/TLS).
+Data deletion: to ask for the deletion of data linked to you, use https://tlldevelopers.com/taptofly-delete-account.html or write to tll.developers.apps@gmail.com.
 
 5. Children’s Privacy
 

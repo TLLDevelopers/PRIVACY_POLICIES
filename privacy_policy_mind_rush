@@ -1,5 +1,5 @@
 Privacy Policy for MindRush
-Last Updated: October 23, 2026
+Last Updated: October 30, 2026
 
 TLL Developers ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and shared when you use MindRush: Daily Brain Puzzles (the "App").
 
@@ -8,7 +8,7 @@ By using the App, you acknowledge that you have read and understood this Privacy
 1. Information We Collect
 
 A. Information You Provide to Us
-Optional account data: You can play without providing a name or email. If you choose to create an account (or link your anonymous account), you provide an email address, a password and a nickname (display name). The password is handled by Firebase Authentication and is not visible to us. The nickname is optional (it defaults to "Anonymous") and may be shown to other players in the rankings, so please do not use your real name if you do not want it displayed.
+Optional account data: You can play without providing a name or email. If you choose to create an account (or link your anonymous account), you provide an email address, a password and a nickname (display name). The password is handled by Firebase Authentication and is not visible to us. If your sign-in provider supplies a profile photo, its URL is stored with your profile (optional). The nickname is optional (it defaults to "Anonymous") and may be shown to other players in the rankings, so please do not use your real name if you do not want it displayed.
 
 B. Information Created by Your Use of the App
 User ID: When you open the App, we use Firebase Authentication to create an anonymous account. This assigns you a unique Firebase User ID (uid) that identifies your progress.
