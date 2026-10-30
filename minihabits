@@ -1,65 +1,97 @@
-📜 Privacy Policy – MiniHabits
+Privacy Policy - MiniHabits
 
-Effective date: 20/09/2025
+Last updated: October 30, 2026. Applies to MiniHabits 2.1.0 and later for Android. (Versión en español más abajo.)
 
-MiniHabits (“the App”, “we”, “our”, or “us”) respects your privacy. This Privacy Policy explains how we handle your information when you use our mobile application available on Google Play Store.
+Controller: TLL Studios (TLL Developers). Contact: tll.developers.apps@gmail.com
 
-1. Information We Collect
+Summary
+Your habits never leave your phone. MiniHabits has no account and no server of its own. The free plan shows ads (Google AdMob) and the app uses Google Analytics for Firebase and Firebase Crashlytics for aggregated usage statistics and crash reports.
 
-MiniHabits is designed to be lightweight and privacy-friendly. We only collect the minimum information required to provide the core functionality of the app:
+What MiniHabits stores
+Your habits, their history, your daily mood (if you log it) and your settings are stored only on this device. If Google backup is enabled on your Android phone, the system may include this data in your personal backup.
 
-User-entered data: Habits you create, reminders, and progress. This data is stored locally on your device and is not shared with us.
+Backups
+A daily automatic copy is saved on the device itself and the last 7 are kept. When you export a copy, a file is created that you choose where to save. MiniHabits does not send it anywhere.
 
-Notifications: The app uses local notifications to remind you about your habits. These notifications are managed on your device and do not transmit data to our servers.
+Reminders and widgets
+Reminders show the habit name; on the lock screen they appear according to your Android settings. If you add a widget (Premium), your habit names and progress appear on the home screen, also when fingerprint lock is on. This data is stored only on the device.
 
-Optional Third-Party Services
+Ads (free plan)
+The free plan shows a Google AdMob banner. In the European Union we ask for your consent before showing ads. Google may use the device advertising ID, approximate location derived from the IP address, device and app-set identifiers, ad interaction information and diagnostics, for advertising, analytics and fraud prevention. You can change your consent in Settings > Privacy. With Premium the ads SDK is not loaded. You can also reset or delete your advertising ID in Android Settings > Google > Ads.
 
-If you enable features such as ads or analytics, the following services may collect limited data:
+Usage statistics and crash reports
+We use Google Analytics for Firebase to know, in aggregate, which features are used (for example whether the tutorial is completed or a habit is created). We never send the names of your habits, their content or your mood. This includes app interactions, the Firebase installation ID and, for purchases, a purchase event.
+We use Firebase Crashlytics to receive crash reports (technical stack trace, device model, Android and app version) so that we can fix them. They do not include your habits or their content.
 
-AdMob (Google): For displaying ads inside the app.
+Data processed by third-party SDKs (as declared in Google Play Data safety)
+- Google AdMob: advertising ID / app set ID and device identifiers, approximate location (from the IP address), ad interactions and diagnostics; shared with Google for advertising, analytics and fraud prevention.
+- Firebase Analytics: app interactions, Firebase installation ID / device identifiers, purchase events; for analytics.
+- Firebase Crashlytics: crash logs and diagnostics; for analytics and app stability.
+Data sent to these services is encrypted in transit (TLS).
 
-Firebase / Google Analytics (if implemented): For crash reports and usage analytics.
+Purchases
+Purchases are processed by Google Play. MiniHabits does not receive your payment details.
 
-These third-party services may collect identifiers, device information, or usage statistics according to their own privacy policies.
+Permissions
+- Internet: only for ads, usage statistics, crash reports and purchases.
+- Notifications and exact alarms: only for your reminders.
+- Fingerprint or PIN (optional): handled by Android; MiniHabits never receives your fingerprint.
 
-2. How We Use Your Information
+Children
+MiniHabits is not directed to children under 13.
 
-We use your information solely to:
+Your rights and data deletion
+You can export your data whenever you want, delete each habit, or uninstall the app to delete everything, automatic copies included. The app has no accounts, so there is nothing on our servers to delete; for data processed by Google AdMob and Firebase see https://policies.google.com/privacy, reset your advertising ID as described above, or write to tll.developers.apps@gmail.com. If you think your rights are not respected, you can complain to the Spanish Data Protection Agency (www.aepd.es).
 
-Provide habit tracking and notification features.
+Changes
+We may update this policy. The date at the top shows the latest version.
 
-Improve app performance and stability.
+-----------------------------------------------------------------------
 
-Display relevant ads (if applicable).
+Política de privacidad de MiniHabits
 
-We do not sell, rent, or share your personal data with any third parties.
+Última actualización: 30 de octubre de 2026. Aplica a MiniHabits 2.1.0 y posteriores para Android.
 
-3. Data Storage and Security
+Responsable: TLL Studios (TLL Developers). Contacto: tll.developers.apps@gmail.com
 
-All habit and reminder data is stored locally on your device.
+Resumen
+Tus hábitos no salen de tu móvil. MiniHabits no tiene cuenta ni servidor propio. El plan gratuito muestra anuncios (Google AdMob) y la app usa Google Analytics para Firebase y Firebase Crashlytics para estadísticas de uso agregadas e informes de fallos.
 
-We do not operate external servers to store your personal data.
+Qué guarda MiniHabits
+Tus hábitos, su historial, tu ánimo diario (si lo apuntas) y tus ajustes se guardan solo en este dispositivo. Si tienes activada la copia de seguridad de Google en Android, el sistema puede incluir estos datos en tu copia personal.
 
-If you uninstall the app, all local data is deleted from your device.
+Copias de seguridad
+Cada día se guarda una copia automática en el propio dispositivo y se conservan las 7 últimas. Cuando exportas una copia, se crea un archivo que tú decides dónde guardar. MiniHabits no la envía a ningún sitio.
 
-4. Children’s Privacy
+Recordatorios y widgets
+Los recordatorios muestran el nombre del hábito; en la pantalla de bloqueo se ven según tus ajustes de Android. Si añades un widget (Premium), el nombre de tus hábitos y tu progreso se ven en la pantalla de inicio, también si tienes activado el bloqueo con huella. Estos datos se guardan solo en el dispositivo.
 
-MiniHabits is not directed to children under the age of 13. We do not knowingly collect personal information from children.
+Anuncios (plan gratuito)
+El plan gratuito muestra un banner de Google AdMob. En la Unión Europea te pedimos consentimiento antes de mostrar anuncios. Google puede usar el identificador de publicidad del dispositivo, la ubicación aproximada derivada de la dirección IP, identificadores del dispositivo y del conjunto de apps, información de interacción con el anuncio y diagnósticos, para publicidad, analítica y prevención del fraude. Puedes cambiar tu consentimiento en Ajustes > Privacidad. Con Premium no se carga el SDK de anuncios. También puedes restablecer o borrar tu identificador de publicidad en Ajustes de Android > Google > Anuncios.
 
-5. Your Privacy Rights
+Estadísticas de uso e informes de fallos
+Usamos Google Analytics para Firebase para saber de forma agregada qué funciones se usan (por ejemplo, si se completa el tutorial o se crea un hábito). Nunca se envían los nombres de tus hábitos, su contenido ni tu ánimo. Incluye interacciones con la app, el ID de instalación de Firebase y, en las compras, un evento de compra.
+Usamos Firebase Crashlytics para recibir informes de cierres inesperados (traza técnica, modelo de dispositivo, versión de Android y de la app) y poder corregirlos. No incluyen tus hábitos ni su contenido.
 
-Depending on your region, you may have rights regarding your personal information, including:
+Datos tratados por SDK de terceros (según la declaración de Seguridad de los datos de Google Play)
+- Google AdMob: identificador de publicidad / ID de conjunto de apps e identificadores del dispositivo, ubicación aproximada (de la IP), interacciones con anuncios y diagnósticos; compartidos con Google para publicidad, analítica y prevención del fraude.
+- Firebase Analytics: interacciones con la app, ID de instalación de Firebase / identificadores del dispositivo, eventos de compra; para analítica.
+- Firebase Crashlytics: registros de fallos y diagnósticos; para analítica y estabilidad de la app.
+Los datos que se envían a estos servicios van cifrados en tránsito (TLS).
 
-Accessing or deleting your local data.
+Compras
+Las compras se procesan con Google Play. MiniHabits no recibe tus datos de pago.
 
-Opting out of personalized ads (via your device settings).
+Permisos
+- Internet: solo para anuncios, estadísticas de uso, informes de fallos y compras.
+- Notificaciones y alarmas exactas: solo para tus recordatorios.
+- Huella o PIN (opcional): lo gestiona Android; MiniHabits nunca recibe tu huella.
 
-6. Changes to This Privacy Policy
+Menores
+MiniHabits no está dirigida a menores de 13 años.
 
-We may update this Privacy Policy from time to time. Any changes will be reflected by updating the “Effective date” at the top of this page.
+Tus derechos y borrado de datos
+Puedes exportar tus datos cuando quieras, borrar cada hábito o desinstalar la app para borrarlo todo, copias automáticas incluidas. La app no tiene cuentas, así que no hay nada en nuestros servidores que borrar; sobre los datos que tratan Google AdMob y Firebase, consulta https://policies.google.com/privacy, restablece tu identificador de publicidad como se indica arriba o escribe a tll.developers.apps@gmail.com. Si crees que no se respetan tus derechos, puedes reclamar ante la Agencia Española de Protección de Datos (www.aepd.es).
 
-7. Contact Us
-
-If you have any questions or concerns about this Privacy Policy or the app, please contact us at:
-
-📧 tll.developers.apps@gmail.com
+Cambios
+Podemos actualizar esta política. La fecha de arriba indica la última versión.
