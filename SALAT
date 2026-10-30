@@ -1,6 +1,6 @@
 # Privacy Policy — Salat
 
-**Last updated: 23 June 2026**
+**Last updated: 30 October 2026**
 
 This Privacy Policy explains how the **Salat** app ("Salat", "the app", "we", "us")
 handles information when you use it. Salat is an Islamic prayer-times app for
@@ -78,6 +78,21 @@ We do not share data with any other third parties.
 
 ---
 
+## Data processed by third-party SDKs (as declared in Google Play Data safety)
+
+This section lists, for Salat, the data processed by the third-party SDKs included in the app. It matches the Data safety form of the app on Google Play.
+
+- Google AdMob (advertising): collects and shares with Google the advertising ID / app set ID and other device identifiers, an approximate location derived from your IP address, ad interactions (impressions, clicks) and diagnostics (such as app launches and performance). Purposes: advertising, ad measurement and analytics, and fraud prevention and security. We do not receive your name or contact details from AdMob.
+- Firebase Analytics (Google): app interactions (events and screens viewed), the Firebase installation ID / device identifiers, and basic device and app information. Purposes: analytics and app functionality.
+- Location permission (fine/coarse): used on your device to calculate prayer times and the Qibla; it is optional and not shared with advertising partners by the app. Purpose: app functionality.
+
+Consent: where required (European Economic Area, United Kingdom, Switzerland) the app asks for your consent through Google's User Messaging Platform (UMP) before showing ads.
+Ad choices: you can reset or delete your advertising ID and opt out of ads personalisation in Android Settings > Google > Ads.
+Security: data sent to these services travels encrypted in transit (HTTPS/TLS).
+Data deletion: the app has no user accounts. Data stored on your device is deleted by uninstalling the app or clearing its data; for data held by Google (advertising ID, analytics), reset your advertising ID as described above or write to tll.developers.apps@gmail.com and we will help with the request.
+
+---
+
 ## 4. Your choices and rights
 
 - **Location:** grant, deny or revoke the permission in your device settings; use a
@@ -127,28 +142,3 @@ If you have questions about this Privacy Policy, contact us at:
 ---
 
 ---
-
-## Appendix — Google Play "Data safety" form (developer notes, NOT part of the public policy)
-
-When filling the Play Console **Data safety** section, declare what the app + its
-SDKs (AdMob, Firebase Analytics) actually do. Suggested answers:
-
-- **Does your app collect or share required user data?** Yes (via Google SDKs).
-- **Data types — Location:** *Approximate location* and *Precise location* —
-  **Collected** (used for app functionality; processed on-device, but the location
-  permission is used). Mark **not shared** with you; note ads SDK may use coarse
-  location. Purpose: App functionality (and Advertising, if AdMob uses it).
-- **Device or other IDs:** **Collected / Shared** — by AdMob (Advertising ID) and
-  Firebase. Purposes: Advertising/marketing, Analytics.
-- **App activity / App interactions:** **Collected** — Firebase Analytics.
-  Purpose: Analytics.
-- **App info and performance (diagnostics/crash):** **Collected** — Firebase.
-  Purpose: Analytics / app functionality.
-- **Is data encrypted in transit?** Yes (Google SDKs use HTTPS).
-- **Can users request deletion?** Provide the contact email; note most data is
-  handled by Google.
-- **Account / personal identifiers (name, email):** **Not collected** (no account).
-
-> Adjust to match the exact SDK versions and Google's current Data safety guidance
-> at publish time. This appendix is internal guidance — do not paste it into the
-> public privacy-policy page.

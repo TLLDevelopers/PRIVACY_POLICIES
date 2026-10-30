@@ -1,6 +1,6 @@
 Política de Privacidad
 
-Última actualización: 27/09/2025
+Última actualización: 30/10/2026
 
 Esta aplicación (“la App”) ha sido desarrollada con el objetivo de ayudar al usuario a encontrar las gasolineras más cercanas y/o más económicas en función de su ubicación y de la ruta seleccionada.
 
@@ -10,9 +10,11 @@ Nos tomamos muy en serio la privacidad de nuestros usuarios. A continuación, se
 
 La App no recopila datos personales (como nombre, correo electrónico, número de teléfono, etc.).
 
-La única información que puede utilizar la App es:
+La única información que la App utiliza por sí misma es:
 
-Ubicación en tiempo real: se utiliza exclusivamente para mostrar las gasolineras cercanas o calcular precios en ruta.
+Ubicación precisa (opcional, con tu permiso): se utiliza exclusivamente para mostrar las gasolineras cercanas o calcular precios en ruta.
+
+Además, los servicios de terceros incluidos en la App (anuncios, analítica y notificaciones) tratan los datos que se detallan en la sección "Datos tratados por SDK de terceros" más abajo.
 
 2. Uso de la información
 
@@ -37,6 +39,21 @@ Datos técnicos del dispositivo.
 Estos servicios tienen sus propias políticas de privacidad:
 
 Google Maps/Google Play Services
+
+Datos tratados por SDK de terceros (según la declaración de Seguridad de los datos de Google Play)
+
+Esta sección detalla, para Gasolineras Baratas, los datos que tratan los SDK de terceros incluidos en la app. Coincide con el formulario de Seguridad de los datos de la app en Google Play.
+
+- Google AdMob (publicidad): recoge y comparte con Google el identificador de publicidad / ID de conjunto de apps y otros identificadores del dispositivo, una ubicación aproximada derivada de tu dirección IP, interacciones con los anuncios (impresiones, clics) y diagnósticos (como aperturas de la app y rendimiento). Finalidades: publicidad, medición y analítica de anuncios, y prevención del fraude y seguridad. De AdMob no recibimos tu nombre ni datos de contacto.
+- Firebase Analytics (Google): interacciones con la app (eventos y pantallas vistas), el ID de instalación de Firebase / identificadores del dispositivo e información básica del dispositivo y de la app. Finalidades: analítica y funcionamiento de la app.
+- Firebase Crashlytics (Google): registros de fallos y diagnósticos (traza técnica, modelo del dispositivo, versión de Android y de la app, un ID de instalación aleatorio). Finalidades: analítica y estabilidad de la app.
+- Firebase Cloud Messaging (Google): un token de notificaciones / ID de instalación de Firebase, para entregar notificaciones. Finalidad: funcionamiento de la app.
+- Ubicación precisa (permiso de ubicación): se usa en tu dispositivo para el funcionamiento de la App y es opcional; la App no la comparte con Google AdMob para publicidad.
+
+Consentimiento: donde la ley lo exige (Espacio Económico Europeo, Reino Unido, Suiza) la app te pide consentimiento mediante la Plataforma de mensajes de usuario de Google (UMP) antes de mostrar anuncios.
+Opciones de anuncios: puedes restablecer o borrar tu identificador de publicidad y desactivar la personalización de anuncios en Ajustes de Android > Google > Anuncios.
+Seguridad: los datos que envían estos servicios viajan cifrados en tránsito (HTTPS/TLS).
+Borrado de datos: la app no tiene cuentas de usuario. Los datos guardados en tu dispositivo se borran al desinstalar la app o borrar sus datos; para los datos que conserva Google (identificador de publicidad, analítica), restablece tu identificador de publicidad como se indica arriba o escribe a tll.developers.apps@gmail.com y te ayudaremos con la solicitud.
 
 4. Seguridad de la información
 

@@ -1,6 +1,6 @@
 # POLÍTICA DE PRIVACIDAD DE DELPA
 
-**Última actualización:** 18 de marzo de 2026
+**Última actualización:** 30 de octubre de 2026
 
 ## 1. INTRODUCCIÓN
 
@@ -169,6 +169,24 @@ Puedes optar por no recibir anuncios personalizados:
 - **Android:** Configuración > Google > Anuncios > Desactivar personalización de anuncios
 - **iOS:** Configuración > Privacidad > Publicidad > Limitar seguimiento de anuncios
 
+## Datos tratados por SDK de terceros (según la declaración de Seguridad de los datos de Google Play)
+
+Esta sección detalla, para DELPA, los datos que tratan los SDK de terceros incluidos en la app. Coincide con el formulario de Seguridad de los datos de la app en Google Play.
+
+- Google AdMob (publicidad): recoge y comparte con Google el identificador de publicidad / ID de conjunto de apps y otros identificadores del dispositivo, una ubicación aproximada derivada de tu dirección IP, interacciones con los anuncios (impresiones, clics) y diagnósticos (como aperturas de la app y rendimiento). Finalidades: publicidad, medición y analítica de anuncios, y prevención del fraude y seguridad. De AdMob no recibimos tu nombre ni datos de contacto.
+- Firebase Analytics (Google): interacciones con la app (eventos y pantallas vistas), el ID de instalación de Firebase / identificadores del dispositivo e información básica del dispositivo y de la app. Finalidades: analítica y funcionamiento de la app.
+- Firebase Crashlytics (Google): registros de fallos y diagnósticos (traza técnica, modelo del dispositivo, versión de Android y de la app, un ID de instalación aleatorio). Finalidades: analítica y estabilidad de la app.
+- Firebase Cloud Messaging (Google): un token de notificaciones / ID de instalación de Firebase, para entregar notificaciones. Finalidad: funcionamiento de la app.
+- Datos de cuenta (Firebase Authentication con correo y Google Sign-In): correo electrónico, nombre, foto de perfil (opcional) e ID de usuario. Finalidades: funcionamiento de la app y gestión de la cuenta.
+- Ubicación precisa (opcional, con tu permiso): para mostrar partidos cercanos. Finalidad: funcionamiento de la app; no se comparte con AdMob para publicidad.
+- Mensajes de chat y contenido que generas (partidos, valoraciones, reportes) en Cloud Firestore. Finalidad: funcionamiento de la app.
+
+Opciones de anuncios: puedes restablecer o borrar tu identificador de publicidad y desactivar la personalización de anuncios en Ajustes de Android > Google > Anuncios.
+Seguridad: los datos que envían estos servicios viajan cifrados en tránsito (HTTPS/TLS).
+Borrado de datos: para pedir el borrado de los datos asociados a ti usa https://tlldevelopers.com/delpa-delete-account.html (o «Eliminar cuenta» en los ajustes de la app) o escribe a tll.developers.apps@gmail.com.
+
+---
+
 ## 8. RETENCIÓN DE DATOS
 
 Conservamos tu información personal durante el tiempo que sea necesario para:
@@ -198,7 +216,7 @@ Dependiendo de tu ubicación, puedes tener los siguientes derechos:
 - **Presentar reclamación:** Ante una autoridad de protección de datos
 
 ### 9.2 Cómo ejercer tus derechos
-Para ejercer cualquiera de estos derechos, contáctanos en: [TU EMAIL DE CONTACTO]
+Para ejercer cualquiera de estos derechos, contáctanos en: tll.developers.apps@gmail.com
 
 ### 9.3 Controles dentro de la aplicación
 Puedes:
@@ -223,7 +241,7 @@ Sin embargo, ningún sistema es 100% seguro. No podemos garantizar la seguridad 
 
 DELPA no está dirigida a menores de 16 años. No recopilamos intencionalmente información de menores de 16 años. Si descubrimos que hemos recopilado datos de un menor, eliminaremos esa información inmediatamente.
 
-Si eres padre/madre o tutor y crees que tu hijo nos ha proporcionado información personal, contáctanos en: [TU EMAIL DE CONTACTO]
+Si eres padre/madre o tutor y crees que tu hijo nos ha proporcionado información personal, contáctanos en: tll.developers.apps@gmail.com
 
 ## 12. TRANSFERENCIAS INTERNACIONALES DE DATOS
 
@@ -278,7 +296,7 @@ Para tu comodidad, aquí hay un resumen de los puntos más importantes:
 ✅ **Tus derechos:** Acceder, corregir, eliminar tus datos; desactivar ubicación y notificaciones  
 ✅ **Seguridad:** Encriptación, HTTPS, Firebase Authentication, reglas de seguridad  
 ✅ **Publicidad:** Usamos Google AdMob; puedes desactivar anuncios personalizados  
-✅ **Contacto:** [TU EMAIL DE CONTACTO] para cualquier pregunta
+✅ **Contacto:** tll.developers.apps@gmail.com para cualquier pregunta
 
 ---
 
