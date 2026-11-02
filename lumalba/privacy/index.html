@@ -20,14 +20,16 @@ nav a{margin-right:1em}
 <p>Aplicación: <strong>Lumalba</strong> (<code>com.tlldevelopers.lumalba</code>), de TLL Developers. Fecha de entrada en vigor: 25/10/2026.</p>
 <p>Lumalba es un despertador con retos. Todo lo que configuras vive en tu móvil.</p>
 <h2>Resumen</h2>
-<p>No hay cuentas ni registro, no usamos cámara, micrófono, contactos ni ubicación, y no tenemos servidor propio que reciba datos tuyos ni analítica de terceros. La <strong>versión gratuita muestra anuncios de Google AdMob</strong> (un banner en la lista de alarmas y, solo si tú lo pides, un vídeo con recompensa); Google puede usar para ello el identificador de publicidad de tu móvil, con tu consentimiento donde la ley lo exige. <strong>Pro quita los anuncios.</strong> Nunca se muestran anuncios mientras suena la alarma ni durante el reto.</p>
+<p>No hay cuentas ni registro, no usamos cámara, micrófono, contactos ni ubicación, y no tenemos servidor propio que reciba datos tuyos. Usamos Google Firebase (Analytics y Crashlytics) solo para contar usos anónimos de la app y recibir informes de fallos. La <strong>versión gratuita muestra anuncios de Google AdMob</strong> (un banner en la lista de alarmas y, solo si tú lo pides, un vídeo con recompensa); Google puede usar para ello el identificador de publicidad de tu móvil, con tu consentimiento donde la ley lo exige. <strong>Pro quita los anuncios.</strong> Nunca se muestran anuncios mientras suena la alarma ni durante el reto.</p>
 <h2>Datos que se guardan en tu móvil</h2>
 <ul>
 <li>Tus alarmas (hora, días, etiqueta, sonido, reto y dificultad, posponer, vibración, salida de emergencia).</li>
-<li>Un registro local de eventos de alarma (cuándo sonó, cuándo la apagaste, si fue con ayuda), que sirve para tus estadísticas de despertar y para diagnosticar fallos. No sale del móvil.</li>
+<li>Un registro local de eventos de alarma (cuándo sonó, cuándo la apagaste, si fue con ayuda), que sirve para tus estadísticas de despertar y para diagnosticar fallos. El registro en sí no sale del móvil; de él se derivan los eventos anónimos descritos en «Estadísticas de uso y fallos».</li>
 <li>El estado de Pro (para saber si la compra sigue vigente) y, si lo has pedido viendo un vídeo, hasta cuándo tienes desbloqueados los retos Pro.</li>
 </ul>
 <p>Todo esto se queda en el móvil, no se nos envía y se borra al desinstalar la app o borrar sus datos.</p>
+<h2>Estadísticas de uso y fallos (Firebase)</h2>
+<p>La app envía a Google Firebase eventos anónimos de uso (alarma creada, alarma sonada y apagada con el tipo de reto y los segundos que tardó, uso de la salida de emergencia, compra de Pro, petición de valoración) e informes de fallos (Crashlytics), junto con datos técnicos del dispositivo (modelo, versión de Android, idioma) y un identificador de instalación de la app. No incluyen nombre, correo, etiquetas de tus alarmas ni ubicación. Se usan para saber si la alarma funciona en distintos móviles y para corregir errores. Se cifran en tránsito (HTTPS/TLS) y no se envían en las versiones de depuración. Más información: <a href="https://firebase.google.com/support/privacy">privacidad de Firebase</a>.</p>
 <h2>Anuncios (versión gratuita)</h2>
 <ul>
 <li>Un banner al pie de la lista de alarmas y un vídeo con recompensa opcional («ver un vídeo y desbloquear los retos Pro 24 h»), de <strong>Google AdMob</strong>. Sin anuncios a pantalla completa que aparezcan solos y sin anuncios en la pantalla de alarma.</li>
@@ -37,7 +39,7 @@ nav a{margin-right:1em}
 <li><strong>Con Pro la app no carga anuncios.</strong> La app no se dirige a menores de 13 años.</li>
 </ul>
 <h2>Finalidades y seguridad</h2>
-<p>Los datos que Google AdMob trata en la versión gratuita (identificador de publicidad, ubicación aproximada derivada de la IP, interacciones con anuncios y diagnósticos) se usan para publicidad, medición y analítica de anuncios y prevención del fraude y seguridad. Lumalba no incluye otro SDK de analítica. Los datos que se envían a Google van cifrados en tránsito (HTTPS/TLS). La app no tiene cuentas: no hay datos en nuestros servidores que borrar.</p>
+<p>Los datos que Google AdMob trata en la versión gratuita (identificador de publicidad, ubicación aproximada derivada de la IP, interacciones con anuncios y diagnósticos) se usan para publicidad, medición y analítica de anuncios y prevención del fraude y seguridad. Además, Lumalba usa Google Firebase Analytics y Crashlytics (ver «Estadísticas de uso y fallos»); no incluye ningún otro SDK de analítica. Los datos que se envían a Google van cifrados en tránsito (HTTPS/TLS). La app no tiene cuentas: no hay datos en nuestros servidores que borrar.</p>
 
 <h2>Permisos</h2>
 <ul>
@@ -64,14 +66,16 @@ nav a{margin-right:1em}
 <p>App: <strong>Lumalba</strong> (<code>com.tlldevelopers.lumalba</code>), by TLL Developers. Effective date: 25/10/2026.</p>
 <p>Lumalba is a puzzle alarm clock. Everything you set up lives on your phone.</p>
 <h2>Summary</h2>
-<p>No accounts and no sign-up; we use no camera, microphone, contacts or location; we run no server that receives your data and use no third-party analytics. The <strong>free version shows Google AdMob ads</strong> (a banner on the alarm list and, only if you ask for it, a rewarded video); Google may use your phone's advertising ID for that, with your consent where the law requires it. <strong>Pro removes the ads.</strong> Ads are never shown while the alarm rings or during the challenge.</p>
+<p>No accounts and no sign-up; we use no camera, microphone, contacts or location; we run no server that receives your data. We use Google Firebase (Analytics and Crashlytics) only to count anonymous app usage and receive crash reports. The <strong>free version shows Google AdMob ads</strong> (a banner on the alarm list and, only if you ask for it, a rewarded video); Google may use your phone's advertising ID for that, with your consent where the law requires it. <strong>Pro removes the ads.</strong> Ads are never shown while the alarm rings or during the challenge.</p>
 <h2>Data stored on your phone</h2>
 <ul>
 <li>Your alarms (time, days, label, sound, challenge and difficulty, snooze, vibration, emergency exit).</li>
-<li>A local log of alarm events (when it rang, when you dismissed it, whether you used the assist), used for your wake-up stats and to diagnose failures. It never leaves your phone.</li>
+<li>A local log of alarm events (when it rang, when you dismissed it, whether you used the assist), used for your wake-up stats and to diagnose failures. The log itself never leaves your phone; the anonymous events described in "Usage statistics and crashes" are derived from it.</li>
 <li>Your Pro status (to know whether the purchase is still valid) and, if you asked for it by watching a video, until when the Pro challenges are unlocked.</li>
 </ul>
 <p>All of this stays on your phone, is not sent to us, and is deleted when you uninstall the app or clear its data.</p>
+<h2>Usage statistics and crashes (Firebase)</h2>
+<p>The app sends Google Firebase anonymous usage events (alarm created, alarm rung and dismissed with the challenge type and how many seconds it took, use of the emergency exit, Pro purchase, review request) and crash reports (Crashlytics), together with technical device data (model, Android version, language) and an app-instance identifier. They contain no name, email, alarm labels or location. They are used to learn whether the alarm works on different phones and to fix bugs. They are encrypted in transit (HTTPS/TLS) and are not sent from debug builds. More information: <a href="https://firebase.google.com/support/privacy">Firebase privacy</a>.</p>
 <h2>Ads (free version)</h2>
 <ul>
 <li>A banner at the bottom of the alarm list and an optional rewarded video ("watch a video to unlock Pro challenges for 24 h"), from <strong>Google AdMob</strong>. No full-screen ads that appear on their own and no ads on the alarm screen.</li>
@@ -81,7 +85,7 @@ nav a{margin-right:1em}
 <li><strong>With Pro the app loads no ads.</strong> The app is not directed to children under 13.</li>
 </ul>
 <h2>Purposes and security</h2>
-<p>The data Google AdMob processes in the free version (advertising ID, approximate location derived from the IP address, ad interactions and diagnostics) is used for advertising, ad measurement and analytics, and fraud prevention and security. Lumalba includes no other analytics SDK. Data sent to Google is encrypted in transit (HTTPS/TLS). The app has no accounts: there is no data on our servers to delete.</p>
+<p>The data Google AdMob processes in the free version (advertising ID, approximate location derived from the IP address, ad interactions and diagnostics) is used for advertising, ad measurement and analytics, and fraud prevention and security. In addition, Lumalba uses Google Firebase Analytics and Crashlytics (see "Usage statistics and crashes"); it includes no other analytics SDK. Data sent to Google is encrypted in transit (HTTPS/TLS). The app has no accounts: there is no data on our servers to delete.</p>
 
 <h2>Permissions</h2>
 <ul>
