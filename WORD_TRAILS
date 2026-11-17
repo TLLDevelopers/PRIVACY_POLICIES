@@ -1,8 +1,8 @@
-Word Trails
+Wend (formerly Word Trails)
 Privacy Policy
-Word Trails · TLL Developers · Last updated: 30 October 2026
+Wend · TLL Developers · Last updated: 17 November 2026
 
-Word Trails ("the app") is a word puzzle game published by TLL Developers ("we"). This policy explains what data is processed when you use the app. The app does not require an account, and we do not ask for your name, email address or contacts.
+Wend, formerly called Word Trails ("the app") is a word puzzle game published by TLL Developers ("we"). This policy explains what data is processed when you use the app. The app does not require an account, and we do not ask for your name, email address or contacts.
 
 1. Data stored on your device
 Your progress (levels, daily results, streaks, statistics, coins, settings and in-progress puzzles) is stored only on your device. If Android backup is enabled on your phone, Android may include this data in your personal Google backup so it can be restored on a new device. We cannot access it.
@@ -17,8 +17,11 @@ More information: How Google uses information from sites or apps that use its se
 3. Where your install came from
 On its first launch, the app reads the Google Play Install Referrer once, to know which listing, cross-promotion or ad led to the install. This is a short referrer string (for example, which of our other apps or campaigns you came from); it does not contain your name, email address or contacts.
 
-4. Crash reports and usage analytics (Firebase)
-To keep the app stable and understand how it is played, the app may use Google Firebase Crashlytics (crash reports: device model, OS version, app state at the time of a crash) and Firebase Analytics (anonymous gameplay events such as a puzzle being started or completed, hints used, and app opens). These data are not used to identify you and are not sold.
+4. Crash reports, usage analytics and remote configuration (Firebase)
+To keep the app stable and understand how it is played, the app uses Google Firebase Crashlytics (crash logs and diagnostics: stack trace, device model, OS and app version, app state at the time of a crash, and a random installation identifier) and Firebase Analytics (anonymous gameplay events such as a puzzle being started or completed, hints used, and app opens). The app also uses Firebase Remote Config to download settings that we can adjust without an app update (for example, how often ads appear or which features are enabled); the request includes your Firebase installation ID and basic device and app information. Google acts as our data processor for these Firebase services. These data are not used to identify you and are not sold.
+
+4b. In-app purchases (Google Play)
+The app offers an optional one-time purchase to remove ads. Payments are processed entirely by Google Play: we never see or store your card or payment details. Google Play tells the app whether the purchase is active on your account so the app can remove ads, and may share purchase information with us in aggregate or per order for accounting and support. You can restore the purchase on any device signed in to the same Google account, and manage or request a refund through Google Play.
 
 5. Notifications
 If you turn on the daily reminder, the app schedules local notifications on your device. No data is sent to us for this.
@@ -34,10 +37,12 @@ Local data stays on your device until you use Settings → Reset progress, clear
 
 Data processed by third-party SDKs (as declared in Google Play Data safety)
 
-This section lists, for Word Trails, the data processed by the third-party SDKs included in the app. It matches the Data safety form of the app on Google Play.
+This section lists, for Wend, the data processed by the third-party SDKs included in the app. It matches the Data safety form of the app on Google Play.
 
 - Google AdMob (advertising): collects and shares with Google the advertising ID / app set ID and other device identifiers, an approximate location derived from your IP address, ad interactions (impressions, clicks) and diagnostics (such as app launches and performance). Purposes: advertising, ad measurement and analytics, and fraud prevention and security. We do not receive your name or contact details from AdMob.
 - Firebase Analytics (Google): app interactions (events and screens viewed), the Firebase installation ID / device identifiers, and basic device and app information. Purposes: analytics and app functionality.
+- Firebase Remote Config (Google): the Firebase installation ID and basic device and app information, used to deliver app settings. Purpose: app functionality.
+- Google Play Billing (Google): purchase status for the remove-ads purchase, handled by Google Play. Purpose: app functionality.
 - Firebase Crashlytics (Google): crash logs and diagnostics (stack trace, device model, Android and app version, a random installation ID). Purposes: analytics and app stability.
 
 Ad choices: you can reset or delete your advertising ID and opt out of ads personalisation in Android Settings > Google > Ads.
@@ -50,6 +55,6 @@ We may update this policy. The date above shows the latest version.
 10. Contact
 TLL Developers — tll.developers.apps@gmail.com
 
-Word Trails is an independent game by TLL Developers. It is not affiliated with, endorsed by or connected to any social network or other puzzle publisher.
+Wend is an independent game by TLL Developers. It is not affiliated with, endorsed by or connected to any social network or other puzzle publisher.
 
 © 2026 TLL Developers
